@@ -7,6 +7,8 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "gridsome-source-rss": "^1.0.0",
+    "mime": "^2.4.6"
   }
 }

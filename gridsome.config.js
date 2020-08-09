@@ -5,6 +5,19 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
+  siteName: 'Hugo Matilla',
+  plugins: [{
+    use: 'gridsome-source-rss',
+    options: {
+      feedUrl: 'https://medium.com/feed/@HugoMatilla',
+      typeName: 'MediumPost'
+    }
+  }],
+  templates: {
+    MediumPost: [
+      {
+        path: '/blog/:title',
+        component: './src/templates/Post.vue'
+      }
+    ]}
 }
