@@ -3,7 +3,9 @@
 # 1 Add Medium Posts
 #### 1 Execute
 > yarn add gridsome-source-rss
+
 **1.2**
+
 > (in case mime is not found)
 > npm install mime (in case it is not found)
 > yarn add gridsome-source-rss
