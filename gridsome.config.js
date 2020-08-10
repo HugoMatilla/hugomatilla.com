@@ -24,7 +24,7 @@ module.exports = {
   templates: {
     MediumPost: [
       {
-        path: '/blog/:title',
+        path: '/blog/medium/:title',
         component: './src/templates/MediumPost.vue'
       }
     ],
