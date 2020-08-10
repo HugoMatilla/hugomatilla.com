@@ -10,7 +10,7 @@ summary: Some simple snippets to do logic testing in kotlin.
 
 ## _Some simple snippets to do logic testing in kotlin_
 
-![Alternative text](../favicon.png)
+<!-- ![Alternative text](../favicon.png) -->
 
 
 # JUnit Test
