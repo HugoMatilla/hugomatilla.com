@@ -12,12 +12,26 @@ module.exports = {
       feedUrl: 'https://medium.com/feed/@HugoMatilla',
       typeName: 'MediumPost'
     }
-  }],
+  },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './src/blog/**/*.md',
+        typeName: 'LocalPost',
+      },
+    },
+  ],
   templates: {
     MediumPost: [
       {
         path: '/blog/:title',
         component: './src/templates/MediumPost.vue'
+      }
+    ],
+    LocalPost: [
+      {
+        path: '/blog/:title',
+        component: './src/templates/LocalPost.vue'
       }
     ]}
 }

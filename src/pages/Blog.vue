@@ -1,6 +1,10 @@
 <template>
 <Layout>
   <div>
+    <div v-for="edge in $page.localPosts.edges" :key="edge.node.id">
+      <h2>{{ edge.node.title }}</h2>
+      <g-link :to= edge.node.path >Link Internal</g-link>
+    </div>
     <div v-for="edge in $page.mediumPosts.edges.slice().reverse()" :key="edge.node.id">
       <h2>{{ edge.node.title }}</h2>
       <g-link :to= edge.node.path >Link Internal</g-link>
@@ -24,5 +28,14 @@ query {
       }
     }
   },
+   localPosts: allLocalPost {
+    edges {
+      node {
+        id
+        title
+        path
+      }
+    }
+  }
 }
 </page-query>
