@@ -16,8 +16,22 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: './src/blog/**/*.md',
+        path: './src/content/blog/**/*.md',
         typeName: 'LocalPost',
+      },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './src/content/web/**/*.md',
+        typeName: 'WebContent',
+      },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: './src/content/web/**/*.md',
+        typeName: 'WebContent',
       },
     },
   ],
@@ -31,6 +45,12 @@ module.exports = {
     LocalPost: [
       {
         path: '/blog/:title',
+        component: './src/templates/LocalPost.vue'
+      }
+    ],
+    WebContent: [
+      {
+        path: '/projects/:title',
         component: './src/templates/LocalPost.vue'
       }
     ]}

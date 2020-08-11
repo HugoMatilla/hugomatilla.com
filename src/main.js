@@ -12,6 +12,13 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css'
   })
-
+  head.link.push({
+    rel: 'stylesheet',
+    // href: 'https://unpkg.com/bulmaswatch/cyborg/bulmaswatch.min.css'
+    href: 'https://unpkg.com/bulmaswatch/darkly/bulmaswatch.min.css'
+    // href: 'https://unpkg.com/bulmaswatch/solar/bulmaswatch.min.css'
+  })
   Vue.use(Buefy)
 }
+
+
