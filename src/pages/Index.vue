@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import Card from '~/components/Card.vue'
 import CardBig from '~/components/CardBig.vue'
 import ProjectsMain from '~/components/ProjectsMain.vue'
 export default {
@@ -16,7 +15,6 @@ export default {
     title: 'Hugo Matilla'
   },
    components: {
-    Card,
     CardBig, 
     ProjectsMain
   }

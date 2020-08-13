@@ -3,7 +3,7 @@
     <div class="card-content">
       <div v-for="edge in $static.data.edges" :key="edge.node.id">
         <div class="card-avatar">
-          <img class="rounded" :src="edge.node.image.src" />
+          <img class="image-filter" :src="edge.node.image.src" />
         </div>
         <div class="center-text" v-html="edge.node.content " />
       </div>
@@ -19,9 +19,10 @@
 }
 .card-big {
   margin-top: 150px;
+  
 }
-.rounded {
-  border-radius: 50%;
+.image-filter {
+  clip-path: polygon(0 0,  calc(100% - 40px) 0, 100% 40px,100% 100%, 40px 100%, 0 calc(100% - 40px));
   /* border: 2px; */
   /* border-style: groove; */
   /* border-color: blue; */
