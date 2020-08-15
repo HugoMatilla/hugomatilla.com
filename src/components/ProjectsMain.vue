@@ -7,7 +7,7 @@
 </template>
 <static-query>
 query {
-  data: allWebContent(filter: { categories: { in: ["projects"] }}, sortBy: "priority", order: DESC){
+  data: allWebContent(filter: { categories: {  contains: ["projects", "main"] }}, sortBy: "priority", order: DESC){
     edges {
       node {
         title
@@ -32,3 +32,8 @@ export default {
 }
 
 </script>
+<style scoped>
+.columns{
+  justify-content: center;
+}
+</style>

@@ -1,8 +1,8 @@
 ---
 title:  Andalusien Rund Reise
 subtitle: Andalusia Multiplatform travel App
-categories: projects
-image: ../imgs/arr.png
+image: ../imgs/ARR.png
+categories: ["projects","main"]
 linkPost: "projects/Andalusien-Rund-Reise"
 linkProject: https://itunes.apple.com/us/app/andalusien-rundreise/id1346610916?mt=8
 priority: 0

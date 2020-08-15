@@ -1,8 +1,8 @@
 ---
 title:  scondoo
 subtitle: Top 1 Germany's Couponing Application
-categories: projects
 image: "../imgs/scondoo.jpeg"
+categories: ["projects","main"]
 linkPost: "projects/scondoo"
 linkProject: https://play.google.com/store/apps/details?id=de.scondoo.android
 priority: 10

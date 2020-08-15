@@ -12,13 +12,10 @@
         </div>
         <div class="card-content">
           <div class="media">
-            <div class="media-content">
-              <p v-html="node.title" class="title is-6"></p>
-              <p class="subtitle is-8"></p>
+            <div class="">
+              <p v-html="node.title" class="title is-6"/>
+              <p  v-html="node.subtitle" class="subtitle is-6"/>
             </div>
-          </div>
-          <div class="content is-3">
-            <p class="subtitle is-6" v-html="node.subtitle" />
           </div>
         </div>
         <footer class="card-footer">
@@ -47,17 +44,11 @@ export default {
   position: relative;
   justify-content: flex-end;
 }
-.title{
-  margin-bottom: 0px;
-}
 .card-content{
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 4px;
   padding-bottom: 12px;
-}
-.media{
-padding-top: 0px;
 }
 .image{
   clip-path: polygon(0% 100%, 100% 100%, 100% 30px, calc(100% - 30px) 0%, 0% 0%);
