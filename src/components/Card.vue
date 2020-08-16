@@ -1,6 +1,7 @@
 <template>
   <div id='project-card' class="card clip">
         <div class="card-image">
+          {{node.image}}
           <figure class="image is-3by1">
             <img :src="node.image.src" alt="Placeholder image" />
           </figure>

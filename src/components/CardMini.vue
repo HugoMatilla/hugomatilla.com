@@ -2,7 +2,7 @@
   <!-- <div class="clip card container">     -->
   <div class="card container">    
     <div class="item content-mini">
-      {{node.image.src}}
+      {{node.image}}
       <div class="content-item">
         <p v-html="node.title" class="content-text title is-5"></p>
         <p v-html="node.subtitle" class="content-text subtitle is-6"></p>
