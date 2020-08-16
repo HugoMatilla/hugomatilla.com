@@ -27,13 +27,6 @@ module.exports = {
         typeName: 'WebContent',
       },
     },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: './src/content/web/**/*.md',
-        typeName: 'WebContent',
-      },
-    },
   ],
   templates: {
     MediumPost: [

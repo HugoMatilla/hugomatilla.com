@@ -4,8 +4,10 @@ subtitle: Andalusia Multiplatform travel App
 image: ../imgs/ARR.png
 categories: ["projects","old"]
 linkPost: "projects/Andalusien-Rund-Reise"
+link: "projects/Andalusien-Rund-Reise"
 linkProject: https://itunes.apple.com/us/app/andalusien-rundreise/id1346610916?mt=8
 priority: 0
+buttonTitle: VISIT PROJECT
 badges: [react-native, android, ios]
 ---
 ![arr](../imgs/arr2.png)

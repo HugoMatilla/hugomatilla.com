@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-multiline">
     <div class="column is-4 is-narrow" v-for="edge in $static.data.edges" :key="edge.node.id">
-      <ProjectCard :node="edge.node"/>
+      <Card :node="edge.node"/>
     </div>
   </div>
 </template>
@@ -24,10 +24,10 @@ query {
 </static-query>
 
 <script lang="ts">
-import ProjectCard from './ProjectCard.vue'
+import Card from './Card.vue'
 export default {
    components: {
-    ProjectCard,
+    Card,
   }
 }
 

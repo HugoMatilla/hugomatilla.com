@@ -1,34 +1,21 @@
 <template>
-  <!-- <div id="card-mini" class="card clip">
-    <div class="columns is-mobile">
-      <div class="column is-one-third">
-          <img src="../content/web/imgs/va.jpg" alt="Placeholder image" />
-      </div>
-      <div class="column">
-        <p v-html="node.title" class="title is-6"></p>
-        <p v-html="node.subtitle" class="subtitle is-6"></p>
-      </div>
-    </div>
-  </div>-->
-  <div class="clip card">
-    <div class="level">
-      <figure class="level-left is-3by4">
-        <p class="image is-96x96">
-          <img src="../content/web/imgs/va.jpg" alt="Placeholder image" />
-        </p>
-      </figure>
-      <div class="card-content">
-        <div class="content">
-          <p v-html="node.title" class="title is-6"></p>
-          <p v-html="node.subtitle" class="subtitle is-6"></p>
-          <!-- <g-link class :href="node.linkProject">Visit</g-link> -->
-        </div>
-      </div>
+  <div class="clip card container">
     
-  </div>
-  <footer class="card-footer">
-      <g-link class="card-footer-item" :href="node.linkProject">Visit</g-link>
-    </footer>
+    <div class="item content-mini">
+      <div class="content-item">
+        <p v-html="node.title" class="content-text title is-5"></p>
+        <p v-html="node.subtitle" class="content-text subtitle is-6"></p>
+      </div>
+      <footer class="card-footer content-footer">
+        <g-link class="card-footer-item" :href="node.link">{{node.buttonTitle}}</g-link>
+      </footer>
+    </div>
+    <figure class="item item-center is-3by4">
+      <p class="image is-96x96">
+        <img :src="node.image.src" alt="Placeholder image" />
+      </p>
+    <b-tag type="is-primary" class="badge is-radiusless">{{node.badges[0]}}</b-tag>
+    </figure>
   </div>
 </template>
 
@@ -42,21 +29,58 @@ export default {
 .clip {
   clip-path: polygon(
     0 0,
-    calc(100% - 30px) 0,
-    100% 30px,
+    calc(100% - 20px) 0,
+    100% 20px,
     100% 100%,
-    30px 100%,
-    0 calc(100% - 30px)
+    50px 100%,
+    0 calc(100% - 50px)
   );
-  background: #fdd835;
+  background:#fdd835;
 }
-p {
-  color: black !important;
-}
-.card-content {
-  padding: 0px;
-  padding-left: 16px;
-  padding-right: 16px;
+.container {
+  display: flex;
 }
 
+.item {
+  height: 170px;
+}
+
+.item-center {
+  flex-grow: 1; /* Set the middle element to grow and stretch */
+}
+
+.content-mini {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+.content-footer {
+  margin-top: auto;
+}
+
+.hero .title {
+  color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+.hero .subtitle {
+  color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.badge{
+  position: absolute;
+  left: 62%;
+  top: 8%;
+}
+img{
+   object-fit: cover;
+   max-width: 96px;
+  min-height: 170px;
+  object-fit: cover;
+}
+.image{
+  
+}
 </style>

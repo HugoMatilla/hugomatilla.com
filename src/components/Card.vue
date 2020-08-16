@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: 'ProjectCard',
+  name: 'Card',
   props: ["node"]
 }
 </script>

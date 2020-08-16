@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts">
-import CardMini from "./CardMini2.vue";
+import CardMini from "./CardMini.vue";
 export default {
   name: "ProjectsMini",
   props: ["title","edges"],
