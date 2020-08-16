@@ -1,11 +1,11 @@
 ---
-title:  scondoo
-subtitle: Top 1 Germany's Couponing Application
-image: "../imgs/scondoo.jpeg"
+title:  eDreams
+subtitle: Europa most important OTA
+image: "../imgs/eDreams.jpeg"
 categories: ["projects","main"]
-linkPost: "projects/scondoo"
-linkProject: https://play.google.com/store/apps/details?id=de.scondoo.android
-priority: 1
+linkPost: "projects/eDreams"
+linkProject: https://play.google.com/store/apps/details?id=com.edreams.travel&hl=en_us
+priority: 10
 badges: [android, kotlin, jetpack]
 ---
 

@@ -3,7 +3,7 @@
   <div id="projects-mini">
     <p class="title is-1">{{title}}</p>
     <div class="columns is-multiline">
-      <div class="column is-4-desktop is-half-tablet" v-for="edge in edges" :key="edge.node.id">
+      <div class="column is-narrow is-4-desktop" v-for="edge in edges" :key="edge.node.id">
         <CardMini :node="edge.node" />
       </div>
     </div>

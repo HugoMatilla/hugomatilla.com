@@ -5,6 +5,7 @@
     <br>
     <ProjectsMain />
     <ProjectsMini title="Recent Proyects" :edges="$static.recent.edges"/>
+    <Post title="Latest Posts" :edges="$static.mediumPosts.edges"/>
     <ProjectsMini title="Open Source Proyects" :edges="$static.open.edges"/>
     <ProjectsMini title="Old Proyects" :edges="$static.old.edges"/>
   </Layout>
@@ -14,6 +15,7 @@
 import CardBig from '~/components/CardBig.vue'
 import ProjectsMain from '~/components/ProjectsMain.vue'
 import ProjectsMini from '~/components/ProjectsMini.vue'
+import Post from '~/components/Post.vue'
 export default {
   metaInfo: {
     title: 'Hugo Matilla'
@@ -21,7 +23,8 @@ export default {
    components: {
     CardBig, 
     ProjectsMain,
-    ProjectsMini
+    ProjectsMini,
+    Post
   }
 }
 </script>
@@ -72,6 +75,16 @@ query {
        badges
        link
        buttonTitle	
+      }
+    }
+  }
+  mediumPosts: allMediumPost(limit:1, sort: { by: "isoDate", order: DESC}) {
+    edges {
+      node {
+        id
+        title
+        path
+        isoDate
       }
     }
   }
