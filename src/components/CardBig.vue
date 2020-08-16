@@ -8,6 +8,7 @@
         <div class="center-text" v-html="edge.node.content " />
       </div>
     </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fill-opacity="1" d="M0,64L144,224L288,224L432,32L576,192L720,64L864,128L1008,192L1152,32L1296,160L1440,96L1440,320L1296,320L1152,320L1008,320L864,320L720,320L576,320L432,320L288,320L144,320L0,320Z"></path></svg> -->
   </div>
 </template>
 <style scoped>

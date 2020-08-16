@@ -30,7 +30,7 @@ query {
 
 <style>
 body {
-  font-family: Inconsolata;
+  font-family: Saira;
   margin: 0;
   color: aliceblue;
   padding: 0;
@@ -80,8 +80,8 @@ a {
 </style>
 <style>
 @font-face {
-  font-family: Inconsolata;
-  src: url("../assets/Inconsolata-Medium.ttf");
+  font-family: Saira;
+  src: url("../assets/Saira-Light.ttf");
   font-weight: normal;
 }
 </style>

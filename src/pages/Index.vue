@@ -1,32 +1,32 @@
 <template>
   <Layout>
-    <br>
-    <CardBig />
-    <br>
-    <ProjectsMain />
-    <ProjectsMini title="Recent Projects" :edges="$static.recent.edges"/>
-    <Post title="Latest Post" :edges="$static.mediumPosts.edges"/>
-    <ProjectsMini title="Open Source ProJects" :edges="$static.open.edges"/>
-    <ProjectsMini title="Other Projects" :edges="$static.old.edges"/>
+    <div class="container">
+      <CardBig />
+      <ProjectsMain title="Main Projects" />
+      <ProjectsMini title="Recent Projects" :edges="$static.recent.edges" />
+      <Post title="Latest Post" :edges="$static.mediumPosts.edges" />
+      <ProjectsMini title="Open Source ProJects" :edges="$static.open.edges" />
+      <ProjectsMini title="Other Projects" :edges="$static.old.edges" />
+    </div>
   </Layout>
 </template>
 
 <script>
-import CardBig from '~/components/CardBig.vue'
-import ProjectsMain from '~/components/ProjectsMain.vue'
-import ProjectsMini from '~/components/ProjectsMini.vue'
-import Post from '~/components/Post.vue'
+import CardBig from "~/components/CardBig.vue";
+import ProjectsMain from "~/components/ProjectsMain.vue";
+import ProjectsMini from "~/components/ProjectsMini.vue";
+import Post from "~/components/Post.vue";
 export default {
   metaInfo: {
-    title: 'Hugo Matilla'
+    title: "Hugo Matilla",
   },
-   components: {
-    CardBig, 
+  components: {
+    CardBig,
     ProjectsMain,
     ProjectsMini,
-    Post
-  }
-}
+    Post,
+  },
+};
 </script>
 
 <style>
