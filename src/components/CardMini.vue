@@ -12,7 +12,7 @@
     </div>
     <figure class="item item-center is-3by4">
       <p class="image is-96x96">
-        <img :src="node.image.src" alt="Placeholder image" />
+        <!-- <img :src="node.image.src" alt="Placeholder image" /> -->
       </p>
     <b-tag type="is-primary" class="badge is-radiusless">{{node.badges[0]}}</b-tag>
     </figure>
