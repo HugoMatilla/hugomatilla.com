@@ -1,7 +1,7 @@
 ---
 title:  Andalusien Rund Reise
 subtitle: Andalusia Multiplatform travel App
-image: ../imgs/ARR.png
+image: ../imgs/ARR3.png
 categories: ["projects","old"]
 linkPost: "projects/Andalusien-Rund-Reise"
 link: "projects/Andalusien-Rund-Reise"
