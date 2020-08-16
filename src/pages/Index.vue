@@ -4,10 +4,10 @@
     <CardBig />
     <br>
     <ProjectsMain />
-    <ProjectsMini title="Recent Proyects" :edges="$static.recent.edges"/>
-    <Post title="Latest Posts" :edges="$static.mediumPosts.edges"/>
-    <ProjectsMini title="Open Source Proyects" :edges="$static.open.edges"/>
-    <ProjectsMini title="Old Proyects" :edges="$static.old.edges"/>
+    <ProjectsMini title="Recent Projects" :edges="$static.recent.edges"/>
+    <Post title="Latest Post" :edges="$static.mediumPosts.edges"/>
+    <ProjectsMini title="Open Source ProJects" :edges="$static.open.edges"/>
+    <ProjectsMini title="Other Projects" :edges="$static.old.edges"/>
   </Layout>
 </template>
 
@@ -42,7 +42,7 @@ export default {
 </style>
 <static-query>
 query {
-  open:  allWebContent(filter: { categories: { contains: ["projects","open"] }}){
+  open:  allWebContent(filter: { categories: { contains: ["projects","open"] }}, sort: { by: "priority", order: DESC}){
     edges {
       node {
        title
@@ -54,7 +54,7 @@ query {
       }
     }
   }
-  recent:  allWebContent(filter: { categories: { contains: ["projects","recent"] }}){
+  recent:  allWebContent(filter: { categories: { contains: ["projects","recent"] }}, sort: { by: "priority", order: DESC}){
     edges {
       node {
        title
@@ -66,7 +66,7 @@ query {
       }
     }
   }
-  old:  allWebContent(filter: { categories: { contains: ["projects","old"] }}){
+  old:  allWebContent(filter: { categories: { contains: ["projects","old"] }}, sort: { by: "priority", order: DESC}){
     edges {
       node {
        title

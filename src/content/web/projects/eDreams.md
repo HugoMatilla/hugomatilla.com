@@ -1,6 +1,6 @@
 ---
 title:  eDreams
-subtitle: Europa most important OTA
+subtitle: Leading online travel agency
 image: "../imgs/eDreams.jpeg"
 categories: ["projects","main"]
 linkPost: "projects/eDreams"

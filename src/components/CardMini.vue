@@ -1,8 +1,6 @@
 <template>
-  <!-- <div class="clip card container">     -->
-  <div class="card container">    
+  <div class="clip card container">    
     <div class="item content-mini">
-      {{node.image}}
       <div class="content-item">
         <p v-html="node.title" class="content-text title is-5"></p>
         <p v-html="node.subtitle" class="content-text subtitle is-6"></p>
@@ -13,9 +11,9 @@
     </div>
     <figure class="item item-center is-3by4">
       <p class="image is-96x96">     
-        <!-- <img :src="node.image.src" alt="Placeholder image" /> -->
+        <img :src="node.image.src" alt="Placeholder image" />
       </p>
-    <!-- <b-tag type="is-primary" class="badge is-radiusless">{{node.badges[0]}}</b-tag> -->
+    <b-tag type="is-primary" class="badge is-radiusless">{{node.badges[0]}}</b-tag>
     </figure>
   </div>
 </template>
