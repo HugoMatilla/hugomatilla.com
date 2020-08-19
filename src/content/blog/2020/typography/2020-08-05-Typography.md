@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android Design System and Theming: Typography (L)"
-date:   2020-08-05
+date:   2020-08-05 19:00:00
 dateStr: "2020-08-05"
 categories: tutorial
 image : ../img/posts/post-typography/main.jpg
