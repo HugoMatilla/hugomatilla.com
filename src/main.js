@@ -22,8 +22,8 @@ export default function (Vue, { router, head, isClient }) {
     // href: 'https://unpkg.com/bulmaswatch/darkly/bulmaswatch.min.css'
     // href: 'https://unpkg.com/bulmaswatch/solar/bulmaswatch.min.css'
   // })
+  // AOS.init()
   Vue.use(Buefy)
-  AOS.init()
 }
 
 
