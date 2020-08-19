@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android Design System and Theming: Typography."
+title:  "Android Design System and Theming: Typography (*)"
 date:   2020-08-05
 dateStr: "2020-08-05"
 categories: tutorial
