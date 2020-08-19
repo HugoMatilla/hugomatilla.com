@@ -38,6 +38,9 @@ export default {
 
 </script>
 <style scoped>
+.container{
+  margin-top:50px;
+}
 .columns{
   justify-content: center;
 }

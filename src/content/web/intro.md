@@ -1,14 +1,9 @@
 ---
-title:  intro
-categories: content
+title:  I am Hugo, welcome to my site
+categories: ["intro"]
 image: ./imgs/me.jpg
 ---
-### Hey, I am Hugo and I am a software developer
 
-I mainly do Android in Kotlin
-
-Sometimes I write articles about it [here]() 
-
-or practice different technologies like iOS, Vue, Node...
-
-You can find my CV [here]() or check out some of my projects here 👇
+ * I am a software developer that mainly do Android in Kotlin.
+ * Sometimes I write [articles]() or practice different technologies.
+ * You can find my CV [here]() and check out my projects down.

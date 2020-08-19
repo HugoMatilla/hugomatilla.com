@@ -1,10 +1,13 @@
 <template>
-    <div class="hero-body">
-      <div class="projects-mini">
-        <div class="tile is-ancestor ">
-          <article class="tile is-child is-4 notification is-yellow titleTile" data-aos="fade-right" data-aos-offset="200">
+  <section class="hero-body">
+    <div class="projects-mini">
+      <b-collapse :open="false" aria-id="contentIdForA11y1" animation="slide" class="center">
+        <a class="button is-primary is-large " slot="trigger" aria-controls="contentIdForA11y1">Click here to see more projects I worked in.</a>
+        <br>
+      <div class="tile is-ancestor ">
+          <article class="tile is-child is-4 notification is-yellow titleTile">
             <p class="title is-1">{{title}}</p>
-            <p class="subtitle"></p>
+            <p class="subtitle">Top tile</p>
           </article>
           <article class="tile is-child"></article>
         </div>
@@ -13,8 +16,7 @@
             <article class="tile is-child is-2" />
             <article class="tile is-child">
               <div class="columns is-multiline">
-                <div data-aos="fade-up"
-                  data-aos-offset="400"
+                <div
                   class="column is-narrow is-6-tablet is-4-desktop"
                   v-for="edge in edges"
                   :key="edge.node.id"
@@ -24,27 +26,17 @@
               </div>
             </article>
           </div>
-        </div>
-      </div>
+          </div>
+      </b-collapse>
     </div>
+  </section>
 </template>
 
-<script lang="ts">
-import CardMini from "./CardMini.vue";
-export default {
-  name: "ProjectsMini",
-  props: ["title", "edges","bg"],
-  components: {
-    CardMini,
-  },
-};
-</script>
 <style scoped>
 .title,
 .subtitle {
   color: black;
 }
-
 .is-yellow {
   background: #fdd835;
 }
@@ -65,6 +57,19 @@ export default {
     0 0
   );
 }
-
+.center{
+  text-align: center;
+}
 
 </style>
+
+<script lang="ts">
+import CardMini from "./CardMini.vue";
+export default {
+  name: "ProjectsMiniCollapsed",
+  props: ["title", "edges"],
+  components: {
+    CardMini,
+  },
+};
+</script>

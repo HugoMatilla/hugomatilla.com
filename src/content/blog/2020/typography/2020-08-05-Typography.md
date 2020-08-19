@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Android Design System and Theming: Typography (Local)"
-date:   2020-08-05 14:00:00
+title:  "Android Design System and Theming: Typography."
+date:   2020-08-05
+dateStr: "2020-08-05"
 categories: tutorial
 image : ../img/posts/post-typography/main.jpg
 photoCredit: yang miao @ unsplash.com

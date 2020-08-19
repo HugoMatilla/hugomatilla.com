@@ -6,7 +6,7 @@
           </figure>
           <b-taglist class="badges is-left">
               <section v-for="badge in node.badges">
-                <b-tag type="is-primary" class="badge">{{badge}}</b-tag>
+                <b-tag class="badge">{{badge}}</b-tag>
               </section>
             </b-taglist>
         </div>
@@ -19,8 +19,8 @@
           </div>
         </div>
         <footer class="card-footer">
-          <g-link  class="card-footer-item" :to=node.linkPost>Info</g-link>
-          <g-link  class="card-footer-item" :href="node.linkProject">Visit</g-link>
+          <g-link  class="card-footer-item is-uppercase" :to=node.linkPost>Info</g-link>
+          <g-link  class="card-footer-item is-uppercase" :href="node.linkProject">Visit</g-link>
         </footer>
       </div>
 </template>
@@ -31,13 +31,18 @@ export default {
   props: ["node"]
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
+/* @import "~/assets/styles.scss"; */
+$card-bg: #fdd835;
+$primary: #4a148c;
 .badge {
   margin-right: 2px;
+  background-color: #4a148c;
+  color: white;
 }
 .clip{
   clip-path: polygon(0 0,  calc(100% - 30px) 0, 100% 30px,100% 100%, 30px 100%, 0 calc(100% - 30px));
-  background:#fdd835;
+  background:$card-bg;
 }
 .badges{
   margin-top: -0.8em;
@@ -62,5 +67,8 @@ export default {
 }
 img{
    object-fit: cover;
+}
+a{
+  color:#4a148c;
 }
 </style>

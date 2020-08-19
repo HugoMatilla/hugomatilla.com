@@ -4,6 +4,9 @@
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import DefaultLayout from '~/layouts/Default.vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -14,11 +17,13 @@ export default function (Vue, { router, head, isClient }) {
   })
   // head.link.push({
     // rel: 'stylesheet',
+    // href: 'styles.scss'
     // href: 'https://unpkg.com/bulmaswatch/cyborg/bulmaswatch.min.css'
     // href: 'https://unpkg.com/bulmaswatch/darkly/bulmaswatch.min.css'
     // href: 'https://unpkg.com/bulmaswatch/solar/bulmaswatch.min.css'
   // })
   Vue.use(Buefy)
+  AOS.init()
 }
 
 

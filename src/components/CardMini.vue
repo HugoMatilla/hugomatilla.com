@@ -13,7 +13,7 @@
       <p class="image is-96x96">     
         <img :src="node.image.src" alt="Placeholder image" />
       </p>
-    <b-tag type="is-primary" class="badge is-radiusless">{{node.badges[0]}}</b-tag>
+    <b-tag class="badge">{{node.badges[0]}}</b-tag>
     </figure>
   </div>
 </template>
@@ -24,7 +24,9 @@ export default {
   props: ["node"],
 };
 </script>
-<style scoped>
+<style scoped lang="scss">
+/* @import "~/assets/styles.scss"; */
+$card-bg: #fdd835;
 .clip {
   clip-path: polygon(
     0 0,
@@ -34,7 +36,7 @@ export default {
     50px 100%,
     0 calc(100% - 50px)
   );
-  background:#fdd835;
+  background: $card-bg;
 }
 .container {
   display: flex;
@@ -73,13 +75,18 @@ export default {
   left: 62%;
   top: 8%;
 }
+.badge {
+  margin-right: 2px;
+  background-color: #4a148c;
+  color: white;
+}
 img{
    object-fit: cover;
    max-width: 96px;
   min-height: 170px;
   object-fit: cover;
 }
-.image{
-  
+a{
+  color:#4a148c;
 }
 </style>
