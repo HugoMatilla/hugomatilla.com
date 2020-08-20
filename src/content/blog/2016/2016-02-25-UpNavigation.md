@@ -2,12 +2,13 @@
 layout: post
 title:  "Simple use of up navigation"
 date:   2016-02-25 14:00:00
+dateStr:  "2016-02-25"
 categories: tutorial
-image : ../img/posts/nav.jpg
+image : ./imgs/nav.jpg
 photoCredit: Annie Theby @ unsplash
 summary: Up navigation help us use and organize our application hierarchy, Android offers built in features to implement this behavior easily.
 ---
-
+![arr](./imgs/nav.jpg)
 Up navigation help us use and organize our application hierarchy, Android offers built in features to implement this behavior easily. Here I present a simple use and an problem that I face while using it.
 
 ## Simple use

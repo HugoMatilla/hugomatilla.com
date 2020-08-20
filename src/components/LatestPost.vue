@@ -18,9 +18,9 @@
                 <div class="title is-4"><i>{{edge.node.summary}}...</i></div>
                 <br>
                 <p>
-                  <g-link  class="button  is-outlined is-warning is-large m4" :to=edge.node.path>Continue </g-link>
+                  <g-link  class="button  is-outlined is-warning is-large m4" :to=edge.node.path>Continue Reading</g-link>
                   &nbsp;&nbsp;
-                  <g-link  class="button  is-outlined is-warning is-large" to="/blog/">Blog</g-link>
+                  <g-link  class="button  is-outlined is-warning is-large" to="/blog/">All Posts</g-link>
                   </p>
             </div>
           </div>
@@ -32,7 +32,7 @@
 
 <script lang="ts">
 export default {
-  name: "Post",
+  name: "LatestPost",
   props: ["title", "edges"],
 };
 </script>

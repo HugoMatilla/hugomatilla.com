@@ -13,7 +13,7 @@
       <ProjectsMiniCollapsed title="More Projects" :edges="$static.old.edges" />
     </section>
     <section class="hero is-large bg3">
-      <Post title="My Latest Post" :edges="$static.lastPosts.edges" />
+      <LatestPost title="My Latest Post" :edges="$static.lastPosts.edges" />
     </section>
     <section class="hero is-medium bg2">
       <ProjectsMini title="Open Source ProJects" :edges="$static.open.edges" bg="bg2" />
@@ -26,7 +26,7 @@ import Intro from "~/components/Intro.vue";
 import ProjectsMain from "~/components/ProjectsMain.vue";
 import ProjectsMini from "~/components/ProjectsMini.vue";
 import ProjectsMiniCollapsed from "~/components/ProjectsMiniCollapsed.vue";
-import Post from "~/components/Post.vue";
+import LatestPost from "~/components/LatestPost.vue";
 export default {
   metaInfo: {
     title: "Hugo Matilla",
@@ -36,7 +36,7 @@ export default {
     ProjectsMain,
     ProjectsMini,
     ProjectsMiniCollapsed,
-    Post,
+    LatestPost,
   },
 };
 </script>
@@ -45,9 +45,6 @@ export default {
 .home-links a {
   margin-right: 1rem;
 }
-</style>
-
-<style>
 .nav__link a {
   margin-right: 10rem;
 }

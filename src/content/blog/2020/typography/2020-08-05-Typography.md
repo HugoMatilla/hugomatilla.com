@@ -4,31 +4,12 @@ title:  "Android Design System and Theming: Typography (L)"
 date:   2020-08-05 19:00:00
 dateStr: "2020-08-05"
 categories: tutorial
-image : ../img/posts/post-typography/main.jpg
+image : ./imgs/main.jpg
 photoCredit: yang miao @ unsplash.com
 summary: Android Design System and Theming can help us to have a simple, powerful, and easy to maintain application theme. This article explain the steps to achieve it.
 ---
-
-- [1. Introduction](#1-introduction)
-- [2. Using Fonts](#2-using-fonts)
-  - [Add Fonts to your project](#add-fonts-to-your-project)
-  - [Applying the fonts](#applying-the-fonts)
-- [3. The Android Design System](#3-the-android-design-system)
-  - [Built-in styles](#built-in-styles)
-- [4. The Material Design Type System](#4-the-material-design-type-system)
-- [5. Android Theming](#5-android-theming)
-  - [Theme attributes vs View attributes (in less than 100 words)](#theme-attributes-vs-view-attributes-in-less-than-100-words)
-  - [Android text appearance attributes](#android-text-appearance-attributes)
-- [6. Creating Custom Themes](#6-creating-custom-themes)
-- [7. Extra](#7-extra)
-  - [Overlays](#overlays)
-  - [Widgets](#widgets)
-  - [Material Components vs AppCompat. Which library should I use?](#material-components-vs-appcompat-which-library-should-i-use)
-- [8. Recap](#8-recap)
-- [9. Conclusion](#9-conclusion)
-
-<!-- /TOC -->
-
+> Note: You can read this post in its [github page](https://github.com/HugoMatilla/Android-Design-System-and-Theming-Typography) (Looks better) or in [Medium]()
+> 
 # 1. Introduction
 
 Managing the look and feel of an Android app can get tedious, and more when the app gets bigger.
@@ -145,6 +126,7 @@ In Android Studio right clicking on the style and following the path, we can rea
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
 ```
+
 > in `v21` is actually `TextAppearance.Material.Headline` but the attributes are very similar.
 
 The same happens with the Material Design Library. For `TextAppearance.MaterialComponents.Body1` we can see that it inherits from an appcompat style.

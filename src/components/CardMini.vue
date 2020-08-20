@@ -81,8 +81,7 @@ $card-bg: #fdd835;
   color: white;
 }
 img{
-   object-fit: cover;
-   max-width: 96px;
+  max-width: 96px;
   min-height: 170px;
   object-fit: cover;
 }

@@ -1,33 +1,30 @@
 <template>
-  <Layout>
-    <div class="all">
-      <div class="blog is-centered">
-        <h1 class="title is-1">BLOG</h1>
-        <h2
-          class="subtitle is-2"
-        >You can find here posts I wrote in Medium and others stored in my personal blog</h2>
-        <b-tabs v-model="activeTab" size="is-large" type="is-toggle" expanded>
-          <b-tab-item label="Medium Posts">
-            <div v-for="edge in $page.mediumPosts.edges.slice().reverse()" :key="edge.node.id">
-              <PostMediumListItem :edge="edge" />
-            </div>
-          </b-tab-item>
-          <b-tab-item label="Blog Posts">
-            <div v-for="edge in $page.localPosts.edges" :key="edge.node.id">
-              <PostListItem :edge="edge" />
-            </div>
-          </b-tab-item>
-        </b-tabs>
-      </div>
+<Layout>
+  <div class="all"> 
+  <div class="blog is-centered">
+    <h1 class="title is-1">Posts</h1>
+    <h2 class="subtitle is-2">Here you can fin the post stored website</h2>
+    <h2 class="subtitle is-2">The Medium Posts are later</h2>
+    <div v-for="edge in $page.localPosts.edges" :key="edge.node.id">
+      <PostListItem :edge="edge"/>
     </div>
-  </Layout>
+    <div v-for="edge in $page.mediumPosts.edges.slice().reverse()" :key="edge.node.id">
+       <PostListItem :edge="edge"/>
+      <!-- <h2>{{ edge.node.title }}</h2> -->
+      <!-- <g-link :to= edge.node.path >Link Internal</g-link> -->
+      <!-- <br> -->
+      <!-- <g-link :to= edge.node.id >Link External </g-link> -->
+      <!-- <p>---</p> -->
+    </div>
+  </div>
+  </div>
+</Layout>
 </template>
 <style scoped>
-.blog {
-  padding-top: 24px ;
+.blog{
   max-width: 840px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:auto;
+  margin-right:auto;
 }
 .all {
   background-color: #181a1b;
@@ -36,38 +33,12 @@
   background-size: cover;
 }
 </style>
-<style>
-.tabs.is-toggle li.is-active a {
-    background-color: #fdd835;
-    border-color: #fdd835;
-    color: black;
-    z-index: 1;
-}
-.tabs.is-toggle a {
-    border-color: #fdd835;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 0;
-    position: relative;
-    color: #fdd835;
-}
-.tabs.is-toggle a:hover {
-    background-color: #fdd835;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 0;
-    position: relative;
-    color: black;
-}
-</style>
 
 <script>
 import PostListItem from "~/components/PostListItem.vue";
-import PostMediumListItem from "~/components/PostMediumListItem.vue";
 export default {
   components: {
-    PostListItem,
-    PostMediumListItem,
+    PostListItem
   },
 };
 </script>
@@ -80,7 +51,6 @@ query {
         title
         path
         isoDate
-        link
       }
     }
   },

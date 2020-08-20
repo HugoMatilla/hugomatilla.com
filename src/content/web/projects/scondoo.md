@@ -1,6 +1,6 @@
 ---
 title:  scondoo
-subtitle: Top 1 Germany's Couponing Application
+subtitle: Top 1 Germany's Couponing App
 image: "../imgs/scondoo.jpeg"
 categories: ["projects","main"]
 linkPost: "projects/scondoo"

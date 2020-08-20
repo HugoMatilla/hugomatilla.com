@@ -87,5 +87,15 @@ a {
   src: url("../assets/Saira-Light.ttf");
   font-weight: normal;
 }
+@font-face {
+  font-family: SourceCode;
+  src: url("../assets/SourceCodePro-Light.ttf");
+  font-weight: normal;
+}
+.title,
+.subtitle {
+  color: white;
+}
+
 </style>
 

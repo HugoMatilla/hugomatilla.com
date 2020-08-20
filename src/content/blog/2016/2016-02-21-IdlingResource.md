@@ -2,8 +2,9 @@
 layout: post
 title:  "Wait in your tests with IdlingResources"
 date:   2016-02-21 18:00:00
+dateStr:  "2016-02-21"
 categories: tutorial
-image : ../img/posts/wait.jpg
+image : ./imgs/wait.jpg
 photoCredit: rawpixel.com @ unsplash
 summary: Small sample to show how to run tests, after your application receive data from the backend.
 ---

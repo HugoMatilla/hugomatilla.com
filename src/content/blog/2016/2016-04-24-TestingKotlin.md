@@ -2,8 +2,9 @@
 layout: post
 title:  "Testing in Kotlin snippets"
 date:   2016-04-24 14:00:00
+dateStr: "2016-04-24"
 categories: tutorial
-image : ../img/posts/test.jpg
+image : ./imgs/test.jpg
 photoCredit: Nicolas Thomas @ unsplash
 summary: Some simple snippets to do logic testing in kotlin.
 ---
