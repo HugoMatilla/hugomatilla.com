@@ -16,6 +16,9 @@ export default {
     Nav,
     Footer,
   },
+  mounted() {
+    this.$AOS.init();
+  },
 };
 </script>
 
@@ -37,8 +40,6 @@ $primary: #4a148c;
 .card-footer-item:not(:last-child) {
   border-right: 1px solid $primary;
 }
-
-
 </style>
 <style>
 body {
@@ -78,7 +79,6 @@ p {
   background-color: #4a148c;
   color: white;
 }
-
 </style>
 
 <style>
