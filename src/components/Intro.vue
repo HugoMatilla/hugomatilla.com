@@ -1,5 +1,5 @@
 <template>
-  <div class="card-big">    
+  <div class="hero-body">    
     <div v-for="edge in $static.data.edges" :key="edge.node.id">
       <div class="columns">
       <div class="card-avatar column is-one-quarter">
@@ -21,9 +21,6 @@
   min-width: 20vh;
   margin: auto;
 }
-.card-big {
-  margin-top: 50px;
-}
 .image-filter {
   clip-path: polygon(
     0 0,
@@ -40,10 +37,11 @@
   font-size: 1.25em;
   line-height: 2.5em;
 }
-a{
-  color: #fdd835;
+.hero-body{
+  margin: 25px;
 }
 </style>
+
 
 <static-query>
 query {

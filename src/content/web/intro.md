@@ -1,5 +1,5 @@
 ---
-title:  I am Hugo, welcome to my site
+title: Welcome
 categories: ["intro"]
 image: ./imgs/me.jpg
 ---

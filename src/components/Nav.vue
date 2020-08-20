@@ -1,11 +1,10 @@
 <template>
-  <b-navbar type="is-dark">
+  <b-navbar class="navbar" type="is-black">
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <h1>Hugo Matilla</h1>
       </b-navbar-item>
     </template>
-
     <template slot="end">
       <b-navbar-item tag="div">
         <div class="buttons">
@@ -24,5 +23,15 @@
 <style scoped>
 h1{
   font-size: 2em;
+  color: white;
+}
+</style>
+<style>
+.navbar-burger{
+  height: auto;
+  color: white;
+}
+.navbar{
+  background: #00000000;
 }
 </style>

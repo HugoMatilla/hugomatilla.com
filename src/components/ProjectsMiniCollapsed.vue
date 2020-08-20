@@ -2,12 +2,12 @@
   <section class="hero-body">
     <div class="projects-mini">
       <b-collapse :open="false" aria-id="contentIdForA11y1" animation="slide" class="center">
-        <a class="button is-primary is-large " slot="trigger" aria-controls="contentIdForA11y1">Click here to see more projects I worked in.</a>
+        <a class="button is-warning is-inverted is-large " slot="trigger" slot-scope="props" aria-controls="contentIdForA11y1">{{ !props.open ? 'Click here to see more projects.' : 'Close' }}</a>
         <br>
-      <div class="tile is-ancestor ">
-          <article class="tile is-child is-4 notification is-yellow titleTile">
+          <div class="tile is-ancestor ">
+          <article class="tile is-child is-4 notification is-yellow titleTile" data-aos="fade-right" data-aos-offset="200">
             <p class="title is-1">{{title}}</p>
-            <p class="subtitle">Top tile</p>
+            <p class="subtitle"></p>
           </article>
           <article class="tile is-child"></article>
         </div>
@@ -16,8 +16,9 @@
             <article class="tile is-child is-2" />
             <article class="tile is-child">
               <div class="columns is-multiline">
-                <div
-                  class="column is-narrow is-6-tablet is-4-desktop"
+                <div data-aos="fade-up"
+                  data-aos-offset="400"
+                  class="column is-8-mobile is-offset-2-mobile is-6-tablet is-4-desktop"
                   v-for="edge in edges"
                   :key="edge.node.id"
                 >
@@ -26,17 +27,19 @@
               </div>
             </article>
           </div>
-          </div>
+        </div>
       </b-collapse>
     </div>
   </section>
 </template>
+
 
 <style scoped>
 .title,
 .subtitle {
   color: black;
 }
+
 .is-yellow {
   background: #fdd835;
 }
@@ -62,7 +65,6 @@
 }
 
 </style>
-
 <script lang="ts">
 import CardMini from "./CardMini.vue";
 export default {

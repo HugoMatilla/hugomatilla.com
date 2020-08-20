@@ -17,7 +17,11 @@
                 <br>
                 <div class="title is-4"><i>{{edge.node.summary}}...</i></div>
                 <br>
-                <g-link  class="button is-primary is-outlined is-large" :to=edge.node.path>Continue reading it</g-link>
+                <p>
+                  <g-link  class="button  is-outlined is-warning is-large m4" :to=edge.node.path>Continue </g-link>
+                  &nbsp;&nbsp;
+                  <g-link  class="button  is-outlined is-warning is-large" to="/blog/">Blog</g-link>
+                  </p>
             </div>
           </div>
         </article>

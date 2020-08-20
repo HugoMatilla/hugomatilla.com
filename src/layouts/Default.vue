@@ -33,7 +33,6 @@ query {
 <style lang="scss">
 /* @import "~/assets/styles.scss"; */
 $primary: #4a148c;
-
 .card-footer {
   border-top: 1px solid $primary;
 }
@@ -48,18 +47,15 @@ body {
   color: aliceblue;
   padding: 0;
   line-height: 1.5;
-  background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%230b0111' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23150223' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23200434' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%232a0546' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23350657' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #350e64;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%232a0b50' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2320083c' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23150628' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%230b0314' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23000000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
 }
 
 .layout-container {
   margin: 0 auto;
-  /* padding-left: 20px; */
-  /* padding-right: 20px; */
   min-height: 800px;
-  /* margin-bottom: 16px; */
 }
 
 h1 {
@@ -79,9 +75,13 @@ p {
   background-color: #4a148c;
   color: white;
 }
-</style>
+.button {
+  border-radius: 0;
+}
 
-<style>
+a {
+  color: #fdd835;
+}
 @font-face {
   font-family: Saira;
   src: url("../assets/Saira-Light.ttf");

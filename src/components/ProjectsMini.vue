@@ -15,7 +15,7 @@
               <div class="columns is-multiline">
                 <div data-aos="fade-up"
                   data-aos-offset="400"
-                  class="column is-narrow is-6-tablet is-4-desktop"
+                  class="column is-8-mobile is-offset-2-mobile is-6-tablet is-4-desktop"
                   v-for="edge in edges"
                   :key="edge.node.id"
                 >
