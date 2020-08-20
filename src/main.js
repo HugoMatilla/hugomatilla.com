@@ -6,6 +6,7 @@ import 'buefy/dist/buefy.css'
 import DefaultLayout from '~/layouts/Default.vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import 'prismjs/themes/prism-okaidia.css'
 
 
 export default function (Vue, { router, head, isClient }) {

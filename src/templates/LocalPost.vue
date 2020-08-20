@@ -15,6 +15,10 @@
 }
 .g-image{
   margin: 24px;
+  object-fit:contain;
+  max-width: 70%;
+  max-height: 700px;
+  text-align: center;
 }
 strong{
   color:white;
@@ -31,7 +35,12 @@ code{
 }
 </style>
 <style>
-
+.tag:not(body){
+  background-color: transparent;
+}
+.token.tag{
+  font-size: 1em;
+}
 pre {
     background: #111111;
     border: 1px solid #680045;
@@ -47,7 +56,7 @@ pre {
     word-wrap: break-word;
 }
 pre code{
-  font-family: SourceCode;
+  font-family: SourceCode !important;
 }
 </style>
 <page-query>

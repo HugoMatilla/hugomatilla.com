@@ -40,6 +40,10 @@
 .hero-body{
   margin: 25px;
 }
+
+ul {
+  list-style: none;
+}
 </style>
 
 

@@ -18,6 +18,11 @@ module.exports = {
       options: {
         path: './src/content/blog/**/*.md',
         typeName: 'LocalPost',
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
       },
     },
     {
