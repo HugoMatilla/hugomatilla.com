@@ -81,6 +81,9 @@ p {
 
 a {
   color: #fdd835;
+}e
+a:hover{
+  color:yellow
 }
 @font-face {
   font-family: Saira;
@@ -92,10 +95,7 @@ a {
   src: url("../assets/SourceCodePro-Light.ttf");
   font-weight: normal;
 }
-.title,
-.subtitle {
-  color: white;
-}
+
 
 </style>
 

@@ -35,6 +35,10 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.title,
+.subtitle {
+  color: white;
+}
 </style>
 <style>
 .tabs.is-toggle li.is-active a {
