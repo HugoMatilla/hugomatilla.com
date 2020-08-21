@@ -6,7 +6,7 @@
         <h2
           class="subtitle"
         >You can find here posts I wrote in Medium and others stored in my personal blog</h2>
-        <b-tabs v-model="activeTab" :size="getSize" type="is-toggle" expanded>
+        <b-tabs v-model="activeTab" size="is-large" type="is-toggle" expanded>
           <b-tab-item label="Medium">
             <div v-for="edge in $page.mediumPosts.edges.slice().reverse()" :key="edge.node.id">
               <PostMediumListItem :edge="edge" />
@@ -75,13 +75,13 @@ export default {
     PostListItem,
     PostMediumListItem,
   },
-  computed: {
-    getSize: function () {
-      var w = window.innerWidth;
-      if (w > 768) return "is-large";
-      else return "is-small";
-    },
-  },
+  // computed: {
+  //   getSize: function () {
+  //     var w = window.innerWidth;
+  //     if (w > 768) return "is-large";
+  //     else return "is-small";
+  //   },
+  // },
 };
 </script>
 <page-query>
