@@ -1,8 +1,8 @@
 <template>
-<div class="container">
-<p class="title is-1">{{title}}</p>
+<div class="all">
+<p class="title">{{title}}</p>
   <div class="columns is-multiline">
-    <div class="column is-8-mobile is-offset-2-mobile is-6-tablet is-4-desktop"
+    <div class="column is-10-mobile is-offset-1-mobile is-6-tablet is-4-desktop"
      v-for="edge in $static.data.edges" :key="edge.node.id">
       <Card :node="edge.node"/>
     </div>
@@ -39,8 +39,8 @@ export default {
 
 </script>
 <style scoped>
-.container{
-  margin-top:50px;
+.all{
+  margin-top:10vh;
 }
 .columns{
   justify-content: center;

@@ -1,23 +1,21 @@
 <template>
   <Layout>
-    <section class="hero is-fullheight is-intro">
-      <div class="container">
+    <SectionBase class="is-fullheight bg-intro">
         <Intro />
         <ProjectsMain title="Main Projects" />
-      </div>
-    </section>
-    <section class="hero bg1">
+    </SectionBase>
+    <SectionFullWidth class="bg1">
       <ProjectsMini title="Recent Projects" :edges="$static.recent.edges" bg="bg1" />
-    </section>
-    <section class="hero bg1">
+    </SectionFullWidth>
+    <SectionFullWidth class="bg1">
       <ProjectsMiniCollapsed title="More Projects" :edges="$static.old.edges" />
-    </section>
-    <section class="hero is-large bg3">
+    </SectionFullWidth>
+    <SectionBase class="is-fullheight bg3">
       <LatestPost title="My Latest Post" :edges="$static.lastPosts.edges" />
-    </section>
-    <section class="hero is-medium bg2">
+    </SectionBase>
+    <SectionFullWidth class="bg2">
       <ProjectsMini title="Open Source ProJects" :edges="$static.open.edges" bg="bg2" />
-    </section>
+    </SectionFullWidth>
   </Layout>
 </template>
 
@@ -27,6 +25,8 @@ import ProjectsMain from "~/components/ProjectsMain.vue";
 import ProjectsMini from "~/components/ProjectsMini.vue";
 import ProjectsMiniCollapsed from "~/components/ProjectsMiniCollapsed.vue";
 import LatestPost from "~/components/LatestPost.vue";
+import SectionBase from "~/layouts/SectionBase.vue";
+import SectionFullWidth from "~/layouts/SectionFullWidth.vue";
 export default {
   metaInfo: {
     title: "Hugo Matilla",
@@ -37,6 +37,8 @@ export default {
     ProjectsMini,
     ProjectsMiniCollapsed,
     LatestPost,
+    SectionBase,
+    SectionFullWidth
   },
 };
 </script>
@@ -50,7 +52,7 @@ export default {
 }
 </style>
 <style scoped>
-.is-intro {
+.bg-intro {
   background-color: #000000;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.78'%3E%3Cpolygon fill='%2308050f' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23110a1e' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23190f2d' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%2322143c' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%232a194b' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;

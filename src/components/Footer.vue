@@ -11,14 +11,6 @@
   </div>
 </footer>
 </template>
-<style>
-.footer{
-  background-color: black;
-}
-/* .small{ */
-  /* font-size: 0.65em; */
-/* } */
-</style>
 <style lang="scss" scoped>
 strong{
   color: white;

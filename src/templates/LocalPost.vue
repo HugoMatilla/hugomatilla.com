@@ -1,17 +1,52 @@
 <template>
-<Layout>
-  <div class ="post-container">
-    <h1 v-html="$page.localPost.title" />
+<Layout class="bg">
+  <div class ="container post-container">
+    <p class="title is-1" v-html="$page.localPost.title" />
     <div v-html="$page.localPost.content" />
   </div>
   </Layout>
 </template>
 <style>
+.icon {
+  width: 0;
+}
+h1 {
+  font-size: 2.5em;
+  text-decoration:underline;
+  margin-top: 32px;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
+</style>
+<style scoped>
+body{
+   font-family: SourceCode !important;
+   font-family: serif;
+}
+.title{
+  color:white;
+}
+.bg{
+background-color: #1a1d1e;
+}
+
+</style>
+<style>
 .post-container{
   padding-top: 24px ;
-  max-width: 840px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 840px; 
+  padding: 12px;
 }
 .g-image{
   margin: 24px;
@@ -19,6 +54,20 @@
   max-width: 70%;
   max-height: 700px;
   text-align: center;
+}
+blockquote{
+background: #Ffffff11;
+padding: 12px;
+border:0px;
+border-left: 2px;
+border-style: solid;
+border-color: #fdd835;
+border-radius: 2px;
+font-style: italic;
+margin-bottom: 8px;
+}
+blockquote > ul {
+    list-style: none;
 }
 strong{
   color:white;

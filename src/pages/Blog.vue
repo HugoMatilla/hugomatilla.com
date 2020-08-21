@@ -2,17 +2,17 @@
   <Layout>
     <div class="all">
       <div class="blog is-centered">
-        <h1 class="title is-1">BLOG</h1>
+        <h1 class="title">BLOG</h1>
         <h2
-          class="subtitle is-2"
+          class="subtitle"
         >You can find here posts I wrote in Medium and others stored in my personal blog</h2>
-        <b-tabs v-model="activeTab" size="is-large" type="is-toggle" expanded>
-          <b-tab-item label="Medium Posts">
+        <b-tabs v-model="activeTab" :size="getSize" type="is-toggle" expanded>
+          <b-tab-item label="Medium">
             <div v-for="edge in $page.mediumPosts.edges.slice().reverse()" :key="edge.node.id">
               <PostMediumListItem :edge="edge" />
             </div>
           </b-tab-item>
-          <b-tab-item label="Blog Posts">
+          <b-tab-item label="Blog">
             <div v-for="edge in $page.localPosts.edges" :key="edge.node.id">
               <PostListItem :edge="edge" />
             </div>
@@ -24,10 +24,12 @@
 </template>
 <style scoped>
 .blog {
-  padding-top: 24px ;
+  padding-top: 24px;
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
+  padding-left:8px ;
+  padding-right:8px ;
 }
 .all {
   background-color: #181a1b;
@@ -42,26 +44,26 @@
 </style>
 <style>
 .tabs.is-toggle li.is-active a {
-    background-color: #fdd835;
-    border-color: #fdd835;
-    color: black;
-    z-index: 1;
+  background-color: #fdd835;
+  border-color: #fdd835;
+  color: black;
+  z-index: 1;
 }
 .tabs.is-toggle a {
-    border-color: #fdd835;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 0;
-    position: relative;
-    color: #fdd835;
+  border-color: #fdd835;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0;
+  position: relative;
+  color: #fdd835;
 }
 .tabs.is-toggle a:hover {
-    background-color: #fdd835;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 0;
-    position: relative;
-    color: black;
+  background-color: #fdd835;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0;
+  position: relative;
+  color: black;
 }
 </style>
 
@@ -72,6 +74,13 @@ export default {
   components: {
     PostListItem,
     PostMediumListItem,
+  },
+  computed: {
+    getSize: function () {
+      var w = window.innerWidth;
+      if (w > 768) return "is-large";
+      else return "is-small";
+    },
   },
 };
 </script>

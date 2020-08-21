@@ -10,7 +10,7 @@
       </footer>
     </div>
     <figure class="item item-center is-3by4">
-      <p class="image is-96x96">     
+      <p class="image">     
         <img :src="node.image.src" alt="Placeholder image" />
       </p>
     <b-tag class="badge">{{node.badges[0]}}</b-tag>
@@ -80,9 +80,20 @@ $card-bg: #fdd835;
   background-color: #4a148c;
   color: white;
 }
+.image{
+  clip-path: polygon(0% 100%, 100% 100%, 100% 22px, calc(100% - 22px) 0%, 0% 0%);
+  margin-bottom: 2px;
+  margin-left: -1px;
+  margin-right: 2px;
+  border: 2px;
+  border-style: solid;
+  border-color:#fdd835;
+  width: 96px;
+}
+
 img{
   max-width: 96px;
-  min-height: 170px;
+  min-height: 165px;
   object-fit: cover;
 }
 a{

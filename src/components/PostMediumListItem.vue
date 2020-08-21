@@ -2,7 +2,7 @@
   <div class="notification">
     <article class="media">
       <figure class="media-left">
-        <p class="image is-128x128">
+        <p class="image is-128x128 is-hidden-mobile">
           <img :src="getImage" alt="Placeholder image" />
         </p>
       </figure>
@@ -10,9 +10,10 @@
         <div class="content">
           <div class="title is-4">{{edge.node.title}}</div>
           <div class="title is-6">{{edge.node.isoDate.substr(0,10)}} @ {{publisher}}</div>
+          <g-link class="button is-outlined is-warning is-hidden-tablet" :to="edge.node.link">Read in Medium</g-link>&nbsp;&nbsp;
         </div>
       </div>
-      <figure class="media-right">
+      <figure class="media-right is-hidden-mobile">
         <g-link class="button is-outlined is-warning" :to="edge.node.link">Read in Medium</g-link>&nbsp;&nbsp;
       </figure>
     </article>

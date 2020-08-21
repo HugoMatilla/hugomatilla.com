@@ -2,7 +2,7 @@
   <b-navbar class="navbar" type="is-black">
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <h1>Hugo Matilla</h1>
+        <h2>Hugo Matilla</h2>
       </b-navbar-item>
     </template>
     <template slot="end">
@@ -21,7 +21,7 @@
   </b-navbar>
 </template>
 <style scoped>
-h1{
+h2{
   font-size: 2em;
   color: white;
 }

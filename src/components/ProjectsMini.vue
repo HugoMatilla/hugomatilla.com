@@ -1,39 +1,42 @@
 <template>
-    <div class="hero-body">
-      <div class="projects-mini">
-        <div class="tile is-ancestor ">
-          <article class="tile is-child is-4 notification is-yellow titleTile" data-aos="fade-right" data-aos-offset="200">
-            <p class="title is-1">{{title}}</p>
-            <p class="subtitle"></p>
-          </article>
-          <article class="tile is-child"></article>
-        </div>
-        <div class="container">
-          <div class="tile is-ancestor">
-            <article class="tile is-child is-2" />
-            <article class="tile is-child">
-              <div class="columns is-multiline">
-                <div data-aos="fade-up"
-                  data-aos-offset="400"
-                  class="column is-8-mobile is-offset-2-mobile is-6-tablet is-4-desktop"
-                  v-for="edge in edges"
-                  :key="edge.node.id"
-                >
-                  <CardMini :node="edge.node" />
-                </div>
-              </div>
-            </article>
+  <div class="all">
+    <div class="tile is-ancestor">
+      <article
+        class="tile is-child is-4 notification is-yellow titleTile"
+        data-aos="fade-right"
+        data-aos-offset="200"
+      >
+        <p class="title is-1">{{title}}</p>
+        <p class="subtitle"></p>
+      </article>
+      <article class="tile is-child"></article>
+    </div>
+    <div class="container">
+      <div class="tile is-ancestor">
+        <article class="tile is-child is-2" />
+        <article class="tile is-child">
+          <div class="columns is-multiline">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="400"
+              class="column is-10-mobile is-offset-1-mobile is-6-tablet is-4-desktop"
+              v-for="edge in edges"
+              :key="edge.node.id"
+            >
+              <CardMini :node="edge.node" />
+            </div>
           </div>
-        </div>
+        </article>
       </div>
     </div>
+  </div>
 </template>
 
 <script lang="ts">
 import CardMini from "./CardMini.vue";
 export default {
   name: "ProjectsMini",
-  props: ["title", "edges","bg"],
+  props: ["title", "edges", "bg"],
   components: {
     CardMini,
   },
@@ -48,13 +51,10 @@ export default {
 .is-yellow {
   background: #fdd835;
 }
-.projects-mini {
-  margin-top: 50px;
-}
 .container {
   margin-top: 1.5em;
 }
-.titleTile{
+.titleTile {
   background: #fdd835;
   clip-path: polygon(
     0 0,
@@ -65,6 +65,4 @@ export default {
     0 0
   );
 }
-
-
 </style>

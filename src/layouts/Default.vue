@@ -21,8 +21,6 @@ export default {
   },
 };
 </script>
-
-
 <static-query>
 query {
   metadata {
@@ -58,18 +56,6 @@ body {
   min-height: 800px;
 }
 
-h1 {
-  font-size: 4em;
-}
-h2 {
-  font-size: 3em;
-}
-h3 {
-  font-size: 1.75em;
-}
-p {
-  font-size: 1.25em;
-}
 .badge {
   margin-right: 2px;
   background-color: #4a148c;
@@ -81,9 +67,9 @@ p {
 
 a {
   color: #fdd835;
-}e
+}
 a:hover{
-  color:yellow
+  color:#fff3bb;
 }
 @font-face {
   font-family: Saira;
@@ -95,7 +81,8 @@ a:hover{
   src: url("../assets/SourceCodePro-Light.ttf");
   font-weight: normal;
 }
-
-
+.footer{
+  background-color: black;
+}
 </style>
 

@@ -8,8 +8,21 @@ image : ./imgs/main.jpg
 photoCredit: yang miao @ unsplash.com
 summary: Android Design System and Theming can help us to have a simple, powerful, and easy to maintain application theme. This article explain the steps to achieve it.
 ---
+- [1. Introduction](#1-introduction)
+- [2. Using Fonts](#2-using-fonts)
+- [3. The Android Design System](#3-the-android-design-system)
+- [4. The Material Design Type System](#4-the-material-design-type-system)
+- [5. Android Theming](#5-android-theming)
+- [6. Creating Custom Themes](#6-creating-custom-themes)
+- [7. Extra](#7-extra)
+- [8. Recap](#8-recap)
+- [9. Conclusion](#9-conclusion)
+
+<i></i>
+&nbsp;
 > Note: You can read this post in its [github page](https://github.com/HugoMatilla/Android-Design-System-and-Theming-Typography) (Looks better) or in [Medium]()
-> 
+
+
 # 1. Introduction
 
 Managing the look and feel of an Android app can get tedious, and more when the app gets bigger.

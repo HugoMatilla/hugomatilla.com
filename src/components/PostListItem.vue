@@ -1,7 +1,7 @@
 <template>
   <div class="notification">
     <article class="media">
-      <figure class="media-left">
+      <figure class="media-left is-hidden-mobile">
         <p class="image is-128x128">
           <img :src="edge.node.image.src" alt="Placeholder image" />
         </p>
@@ -13,10 +13,11 @@
           <div class="title is-5">
             <i>{{edge.node.summary}}</i>
           </div>
+          <g-link class="button is-outlined is-warning is-hidden-tablet" :to="edge.node.path">Read</g-link>&nbsp;&nbsp;
         </div>
       </div>
       <figure class="media-right">
-        <g-link class="button is-outlined is-warning" :to="edge.node.path">Read</g-link>&nbsp;&nbsp;
+        <g-link class="button is-outlined is-warning is-hidden-mobile" :to="edge.node.path">Read</g-link>&nbsp;&nbsp;
       </figure>
     </article>
   </div>
