@@ -6,7 +6,7 @@
         <p v-html="node.subtitle" class="content-text subtitle is-6"></p>
       </div>
       <footer class="card-footer content-footer">
-        <g-link class="card-footer-item" :href="node.link">{{node.buttonTitle}}</g-link>
+        <g-link class="card-footer-item" :to="node.link">{{node.buttonTitle}}</g-link>
       </footer>
     </div>
     <figure class="item item-center is-3by4">

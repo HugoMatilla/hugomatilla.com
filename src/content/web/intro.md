@@ -8,6 +8,6 @@ image: ./imgs/me.jpg
 
 -Sometimes I write [articles](/blog/) or practice different technologies.
 
--Like the [website]() you are looking at now, made with **Gridsome** and **Vue**.
+-Like the [website](/projects/hugomatilla-com) you are looking at now, made with **Gridsome** and **Vue**.
 
 -Scrolling down you can see the applications I have worked on as my open source projects.

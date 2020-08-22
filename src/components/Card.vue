@@ -20,7 +20,7 @@
         </div>
         <footer class="card-footer">
           <g-link  class="card-footer-item is-uppercase" :to=node.linkPost>Info</g-link>
-          <g-link  class="card-footer-item is-uppercase" :href="node.linkProject">Visit</g-link>
+          <g-link  class="card-footer-item is-uppercase" :to="node.linkProject">Visit</g-link>
         </footer>
       </div>
 </template>
