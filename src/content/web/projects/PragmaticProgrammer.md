@@ -1,7 +1,7 @@
 ---
 title: Pragmatic Programmer
-subtitle: The Pragmatic Programmer by Andrew Hunt and David Thomas
-image: "../imgs/reBuy.webp"
+subtitle: "Summary of the book by A. Hunt and D.avid Thomas"
+image: "../imgs/PragmaticProgrammer.webp"
 link: https://github.com/HugoMatilla/The-Pragmatic-Programmer
 buttonTitle: VISIT SUMMARY
 priority: 1

@@ -39,6 +39,8 @@ $primary: #4a148c;
   margin-right: 2px;
   background-color: #4a148c;
   color: white;
+  border-radius: 0;
+  clip-path: polygon(0 0,  calc(100% - 6px) 0, 100% 6px,100% 100%, 6px 100%, 0 calc(100% - 6px));
 }
 .clip{
   clip-path: polygon(0 0,  calc(100% - 30px) 0, 100% 30px,100% 100%, 30px 100%, 0 calc(100% - 30px));

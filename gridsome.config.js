@@ -30,6 +30,11 @@ module.exports = {
       options: {
         path: './src/content/web/**/*.md',
         typeName: 'WebContent',
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
       },
     },
   ],
@@ -51,5 +56,6 @@ module.exports = {
         path: '/projects/:title',
         component: './src/templates/LocalPost.vue'
       }
-    ]}
+    ]
+  }
 }

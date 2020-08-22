@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android Design System and Theming: Typography (L)"
+title:  "Android Design System and Theming: Typography."
 date:   2020-08-05 19:00:00
 dateStr: "2020-08-05"
 categories: tutorial
@@ -409,9 +409,13 @@ Like there is no  `TextAppearance.AppCompat.Subtitle1` or `Headline,2,3,4` but i
 
 # 8. Recap
 There are 4 steps to have your custom type styles in your Android App using Theming:
+
 1. Add your fonts.
+
 2. Create a Theme: `<style name="Base.Theme.MyApp" parent="Theme.MaterialComponents.DayNight...`
+
 3. Add to the theme, the custom styles for every **Text Appearance Theme Attribute**: `textAppearanceBody1`,`textAppearanceHeadline1`...
+
 4. Apply them in your views: `android:textAppearance="?attr/textAppearanceBody1"`
 
 # 9. Conclusion

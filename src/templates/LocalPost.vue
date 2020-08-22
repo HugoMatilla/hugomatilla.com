@@ -17,12 +17,15 @@ h1 {
 }
 h2 {
   font-size: 2em;
+  margin-top: 32px;
 }
 h3 {
   font-size: 1.75em;
+  margin-top: 24px;
 }
 h4 {
   font-size: 1.5em;
+  margin-top: 24px;
 }
 p {
   font-size: 1.25em;
@@ -30,10 +33,6 @@ p {
 }
 </style>
 <style scoped>
-body{
-   font-family: SourceCode !important;
-   font-family: serif;
-}
 .title{
   color:white;
 }
@@ -49,11 +48,14 @@ background-color: #1a1d1e;
   padding: 12px;
 }
 .g-image{
-  margin: 24px;
+  margin: 24px 0 24px 0;
   object-fit:contain;
-  max-width: 70%;
-  max-height: 700px;
+  max-height: 550px;
+  /* max-width: 70%; */
   text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 blockquote{
 background: #Ffffff11;
@@ -79,8 +81,10 @@ p, li{
   font-size: 1.25em ;
 }
 code{
-  background-color:#00000033;
-  color:#aa0088;
+  font-family: SourceCode !important;
+  background-color:#ffffff0c;
+  border-radius: 2px; 
+  color:#f92672;
 }
 </style>
 <style>

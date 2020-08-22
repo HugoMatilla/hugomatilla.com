@@ -2,7 +2,7 @@
   <Layout class="crt">
     <SectionBase class="is-fullheight bg-intro">
       <Intro />
-      <ProjectsMain title="My Favorite Projects" />
+      <ProjectsMain title="Featured Projects" />
     </SectionBase>
     <SectionFullWidth class="bg1">
       <ProjectsMini title="More Projects" :edges="$static.projects.edges.slice(0,3)" bg="bg1" />

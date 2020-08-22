@@ -19,7 +19,7 @@
             <div
               data-aos="fade-up"
               data-aos-offset="400"
-              class="column is-10-mobile is-offset-1-mobile is-6-tablet is-4-desktop"
+              class="column is-10-mobile is-offset-1-mobile is-6-tablet is-4-widescreen"
               v-for="edge in edges"
               :key="edge.node.id"
             >
@@ -64,5 +64,8 @@ export default {
     0px 100%,
     0 0
   );
+}
+.all{
+  padding-right: 16px ;
 }
 </style>

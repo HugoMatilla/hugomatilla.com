@@ -1,10 +1,10 @@
 ---
 title: Kotlin Awakens
-subtitle: Open Source Android project with Clean Architecture and Kotlin
+subtitle: Android project to test Clean Architecture and Kotlin - 2016
 image: "../imgs/swkotlin.gif"
 link: https://github.com/HugoMatilla/StarWars-TheKotlinAwakens
 buttonTitle: VISIT PROJECT
-priority: 2
+priority: 10
 badges: [android]
 categories: [open]
 --- 

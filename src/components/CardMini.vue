@@ -33,9 +33,10 @@ $card-bg: #fdd835;
     calc(100% - 20px) 0,
     100% 20px,
     100% 100%,
-    50px 100%,
-    0 calc(100% - 50px)
+    30px 100%,
+    0 calc(100% - 30px)
   );
+  
   background: $card-bg;
 }
 .container {
@@ -79,6 +80,8 @@ $card-bg: #fdd835;
   margin-right: 2px;
   background-color: #4a148c;
   color: white;
+  border-radius: 0;
+  clip-path: polygon(0 0,  calc(100% - 6px) 0, 100% 6px,100% 100%, 6px 100%, 0 calc(100% - 6px));
 }
 .image{
   clip-path: polygon(0% 100%, 100% 100%, 100% 22px, calc(100% - 22px) 0%, 0% 0%);

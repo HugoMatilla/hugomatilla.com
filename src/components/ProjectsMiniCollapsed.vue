@@ -57,6 +57,9 @@
 .center{
   text-align: center;
 }
+.tile{
+  text-align: left;
+}
 
 </style>
 <script lang="ts">

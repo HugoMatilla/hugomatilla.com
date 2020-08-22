@@ -56,11 +56,6 @@ body {
   min-height: 800px;
 }
 
-.badge {
-  margin-right: 2px;
-  background-color: #4a148c;
-  color: white;
-}
 .button {
   border-radius: 0;
 }
