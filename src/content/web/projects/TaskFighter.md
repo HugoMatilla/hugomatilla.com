@@ -2,7 +2,7 @@
 title:  Task Fighter
 subtitle: The Beat'em up Calendar-Todo list
 image: "../imgs/TaskFighter.png"
-categories: ["projects","main"]
+categories: ["featured"]
 linkPost: "projects/task-fighter"
 linkProject: http://task-fighter.com/
 priority: 1

@@ -2,14 +2,11 @@
   <section class="hero-body">
     <div class="projects-mini">
       <b-collapse :open="false" aria-id="contentIdForA11y1" animation="slide" class="center">
-        <a class="button is-warning is-inverted is-large " slot="trigger" slot-scope="props" aria-controls="contentIdForA11y1">{{ !props.open ? 'Click here to see more projects.' : 'Close' }}</a>
+        <a class="button button-crt is-warning is-outlined is-large " slot="trigger" slot-scope="props" aria-controls="contentIdForA11y1">{{ !props.open ? 'MORE' : 'LESS' }}</a>
         <br>
           <div class="tile is-ancestor ">
-          <article class="tile is-child is-4 notification is-yellow titleTile" data-aos="fade-right" data-aos-offset="200">
-            <p class="title is-1">{{title}}</p>
-            <p class="subtitle"></p>
+          <article class="tile is-child is-4">
           </article>
-          <article class="tile is-child"></article>
         </div>
         <div class="container">
           <div class="tile is-ancestor">
@@ -42,9 +39,6 @@
 
 .is-yellow {
   background: #fdd835;
-}
-.projects-mini {
-  margin-top: 50px;
 }
 .container {
   margin-top: 1.5em;

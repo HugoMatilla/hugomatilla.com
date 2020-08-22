@@ -6,5 +6,5 @@ link: https://github.com/HugoMatilla/The-Pragmatic-Programmer
 buttonTitle: VISIT SUMMARY
 priority: 1
 badges: [summary]
-categories: [projects, open, book]
+categories: [open, book]
 ---  

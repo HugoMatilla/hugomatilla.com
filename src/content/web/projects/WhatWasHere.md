@@ -6,5 +6,5 @@ link: https://play.google.com/store/apps/details?id=com.smf.wwh
 buttonTitle: VISIT PLAY STORE
 priority: 3
 badges: [android]
-categories: [projects, old]
+categories: [projects]
 --- 

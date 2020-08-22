@@ -6,5 +6,5 @@ link: https://www.easyluggage.it/
 buttonTitle: VISIT PROJECT
 priority: 0
 badges: [web]
-categories: [projects, recent]
+categories: [projects]
 --- 

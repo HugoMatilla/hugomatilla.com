@@ -6,5 +6,5 @@ link:
 buttonTitle: WIP
 priority: 10
 badges: [ios]
-categories: [projects, recent]
+categories: [projects]
 ---

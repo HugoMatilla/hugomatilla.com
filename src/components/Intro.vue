@@ -3,7 +3,8 @@
     <div v-for="edge in $static.data.edges" :key="edge.node.id">
       <div class="columns">
         <div class="card-avatar column is-one-quarter">
-          <img class="image-filter" :src="edge.node.image.src" />
+          <!-- <img class="image-filter" :src="edge.node.image.src" /> -->
+          <MyImage class ="image-filter" :imageUrl="edge.node.image.src"/>
         </div>
         <div class="column is-three-quarters">
           <p class="title" v-html="edge.node.title" />
@@ -42,7 +43,14 @@ ul {
 }
 </style>
 
-
+<script>
+import MyImage from "./MyImage.vue";
+export default {
+  components: {
+    MyImage,
+  },
+};
+</script>
 <static-query>
 query {
   data: allWebContent(filter: { categories: { contains: ["intro"] }}){

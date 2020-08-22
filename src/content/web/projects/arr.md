@@ -2,11 +2,11 @@
 title:  Andalusien Rund Reise
 subtitle: Andalusia Multiplatform travel App, made in React Native
 image: ../imgs/ArrApp.png
-categories: [projects, old]
+categories: [projects]
 linkPost: "projects/Andalusien-Rund-Reise"
 link: "projects/Andalusien-Rund-Reise"
 linkProject: https://itunes.apple.com/us/app/andalusien-rundreise/id1346610916?mt=8
-priority: 9
+priority: 8
 buttonTitle: VISIT PROJECT
 badges: [react-native, android, ios]
 ---

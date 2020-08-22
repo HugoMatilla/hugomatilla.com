@@ -20,7 +20,7 @@ summary: Android Design System and Theming can help us to have a simple, powerfu
 
 <i></i>
 &nbsp;
-> Note: You can read this post in its [github page](https://github.com/HugoMatilla/Android-Design-System-and-Theming-Typography) (Looks better) or in [Medium]()
+> Note: You can read this post in its [github page](https://github.com/HugoMatilla/Android-Design-System-and-Theming-Typography) or in [Medium](https://proandroiddev.com/android-design-system-and-theming-typography-6260c37b1243)
 
 
 # 1. Introduction

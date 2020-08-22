@@ -6,5 +6,5 @@ link: https://play.google.com/store/apps/details?id=com.smf.LernCoachies&hl=en'
 buttonTitle: VISIT PLAY STORE
 priority: 1
 badges: [android]
-categories: [projects, old]
+categories: [projects]
 --- 

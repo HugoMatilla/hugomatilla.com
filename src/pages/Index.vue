@@ -1,20 +1,23 @@
 <template>
-  <Layout>
+  <Layout class="crt">
     <SectionBase class="is-fullheight bg-intro">
-        <Intro />
-        <ProjectsMain title="Main Projects" />
+      <Intro />
+      <ProjectsMain title="My Favorite Projects" />
     </SectionBase>
     <SectionFullWidth class="bg1">
-      <ProjectsMini title="Recent Projects" :edges="$static.recent.edges" bg="bg1" />
+      <ProjectsMini title="More Projects" :edges="$static.projects.edges.slice(0,3)" bg="bg1" />
     </SectionFullWidth>
     <SectionFullWidth class="bg1">
-      <ProjectsMiniCollapsed title="More Projects" :edges="$static.old.edges" />
+      <ProjectsMiniCollapsed :edges="$static.projects.edges.slice(3)" />
     </SectionFullWidth>
     <SectionBase class="is-fullheight bg3">
       <LatestPost title="My Latest Post" :edges="$static.lastPosts.edges" />
     </SectionBase>
     <SectionFullWidth class="bg2">
-      <ProjectsMini title="Open Source ProJects" :edges="$static.open.edges" bg="bg2" />
+      <ProjectsMini title="Open Source" :edges="$static.open.edges.slice(0,3)" bg="bg2" />
+    </SectionFullWidth>
+    <SectionFullWidth class="bg2">
+      <ProjectsMiniCollapsed :edges="$static.open.edges.slice(3)" bg="bg2" />
     </SectionFullWidth>
   </Layout>
 </template>
@@ -38,7 +41,7 @@ export default {
     ProjectsMiniCollapsed,
     LatestPost,
     SectionBase,
-    SectionFullWidth
+    SectionFullWidth,
   },
 };
 </script>
@@ -58,18 +61,18 @@ export default {
   background-attachment: fixed;
   background-size: cover;
 }
-.hero{
-  background-attachment: fixed;/*  */
+.hero {
+  background-attachment: fixed; /*  */
   background-size: cover;
 }
-.hero-body{
+.hero-body {
   padding-left: 0;
 }
 .bg1 {
   background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2593&q=80");
 }
 .bg2 {
-  background-image: url("https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-image: url("https://images.unsplash.com/photo-1547954575-855750c57bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
 }
 .bg3 {
   background-color: #181a1b;
@@ -77,11 +80,10 @@ export default {
   background-attachment: fixed;
   background-size: cover;
 }
-
 </style>
 <static-query>
 query {
-  open:  allWebContent(filter: { categories: { contains: ["projects","open"] }}, sort: { by: "priority", order: DESC}){
+  open:  allWebContent(filter: { categories: { contains: ["open"] }}, sort: { by: "priority", order: DESC}){
     edges {
       node {
        title
@@ -93,7 +95,12 @@ query {
       }
     }
   }
-  recent:  allWebContent(filter: { categories: { contains: ["projects","recent"] }}, sort: { by: "priority", order: DESC}){
+  projects:  allWebContent(
+    filter: { 
+        categories: {contains: ["projects"] },
+        },
+    sort: { by: "priority", order: DESC})
+    {
     edges {
       node {
        title
@@ -105,18 +112,7 @@ query {
       }
     }
   }
-  old:  allWebContent(filter: { categories: { contains: ["projects","old"] }}, sort: { by: "priority", order: DESC}){
-    edges {
-      node {
-       title
-       subtitle
-       image
-       badges
-       link
-       buttonTitle	
-      }
-    }
-  }
+  
   mediumPosts: allMediumPost(limit:1, sort: { by: "isoDate", order: DESC}) {
     edges {
       node {

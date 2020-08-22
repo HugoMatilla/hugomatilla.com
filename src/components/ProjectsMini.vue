@@ -36,7 +36,7 @@
 import CardMini from "./CardMini.vue";
 export default {
   name: "ProjectsMini",
-  props: ["title", "edges", "bg"],
+  props: ["title", "edges"],
   components: {
     CardMini,
   },

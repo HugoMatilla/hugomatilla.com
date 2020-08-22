@@ -11,7 +11,7 @@
 </template>
 <static-query>
 query {
-  data: allWebContent(filter: { categories: {  contains: ["projects", "main"] }}, sortBy: "priority", order: DESC){
+  data: allWebContent(filter: { categories: {  contains: ["featured"] }}, sortBy: "priority", order: DESC){
     edges {
       node {
         title
