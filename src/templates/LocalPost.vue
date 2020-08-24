@@ -29,10 +29,39 @@ h4 {
 }
 p {
   font-size: 1.25em;
-  line-height: 1.4em;
+  line-height: 1.25em;
 }
+.post-container {
+  font-family: Bitter !important;
+}
+.post-container p {
+  font-family: Bitter !important;
+  line-height: 1.6em;
+}
+.number {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 1.5rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right:0;
+    min-width: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: center;
+}
+
 </style>
 <style scoped>
+
 .title{
   color:white;
 }

@@ -1,5 +1,5 @@
 ---
-title: "MoviesFlow [WIP]"
+title: "MoviesFlow[WIP]"
 subtitle: "App using Kotlin <b>Flow</b> observing Room queries in a Clean Architecture"
 image: "../imgs/MoviesFlow.gif"
 link: https://github.com/HugoMatilla/MoviesFlow

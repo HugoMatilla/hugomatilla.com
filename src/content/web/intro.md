@@ -1,7 +1,7 @@
 ---
 title: Welcome
 categories: ["intro"]
-image: ./imgs/me.jpg
+image: ./imgs/mebg.jpg
 ---
 
 -I am a software developer that mainly do **Android** in **Kotlin**.

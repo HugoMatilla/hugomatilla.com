@@ -76,6 +76,11 @@ a:hover{
   src: url("../assets/SourceCodePro-Light.ttf");
   font-weight: normal;
 }
+@font-face {
+  font-family: Bitter;
+  src: url("../assets/Bitter-VariableFont_wght.ttf");
+  font-weight: normal;
+}
 .footer{
   background-color: black;
 }

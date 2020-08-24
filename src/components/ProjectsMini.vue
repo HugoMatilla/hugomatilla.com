@@ -2,7 +2,7 @@
   <div class="all">
     <div class="tile is-ancestor">
       <article
-        class="tile is-child is-4 notification is-yellow titleTile"
+        class="title-section tile is-child is-4 notification is-yellow titleTile"
         data-aos="fade-right"
         data-aos-offset="200"
       >
@@ -47,7 +47,15 @@ export default {
 .subtitle {
   color: black;
 }
-
+/* .title-section:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    background: url("https://www.cyberpunk.net/build/images/home/razor-bottom-yellow-d44fb6b7.svg") repeat-x 100% 0;
+    height: 30px;
+} */
 .is-yellow {
   background: #fdd835;
 }

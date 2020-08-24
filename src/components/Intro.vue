@@ -30,7 +30,8 @@
     40px 100%,
     0 calc(100% - 40px)
   );
-  filter: hue-rotate(220deg);
+  filter: hue-rotate(0deg);
+  filter:grayscale(0%);
 }
 .intro {
 }

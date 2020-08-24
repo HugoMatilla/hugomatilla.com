@@ -1,6 +1,6 @@
 <template>
 <div>
-  {{getImage}}
+  </br></br>
  <div class="c-glitch" :style=getImage>
     <div class="c-glitch__img" :style=getImage></div>
     <div class="c-glitch__img" :style=getImage></div>
@@ -71,7 +71,7 @@ $transition-fast: .2s cubic-bezier(.77, 0, .175, 1);
   width: 20vw;
 }
 
-.c-glitch__img {
+.c-glitch__imgXXX {
   background-blend-mode: none;
   background-color: transparent;
   height: calc(100% + 5px * 2);
