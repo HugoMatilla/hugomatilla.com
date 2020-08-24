@@ -4,29 +4,47 @@ categories: ["cv"]
 image: ./imgs/me.jpg
 ---
 
- Here you can find out who I am and what I like. You can find a formal 
-Android CV in PDF [here]() or a web version [here](#formal).
+Here you can find out who I am and what I like. You can find a formal 
+Android CV in PDF [here](https://drive.google.com/file/d/1FJJqp6LqpbhdOG7F_NiCIWsQvJLp4L5M/view?usp=sharing) or a web version [here](#formal).
 
 # About me
 
 I am a Software Engineer MSc. with more than 8 years of experience as an Android Developer. I worked in an Agency where I learned how to move fast from one project to another.
-Later on  I worked in a startup `Scondoo`) where I was the only Android Developer. I added new features, fixed bugs and refactored every time I find it was necessary.
+
+<p/>&nbsp;
+
+Later on, I worked in a startup `Scondoo`) where I was the only Android Developer. I added new features, fixed bugs, and refactored every time I find it was necessary.
+
+<p/>&nbsp;
+
 Currently, I am a Senior Android Developer at eDreams ODIGEO where I joined a team of 20 Android Developers building the multibrand android app at one of the biggest  Online Tourist Agencies in the world.
 
+<p/>&nbsp;
 
 Learning new technology is one of my hobbies. My last, not Android related projects are:
-* An iOS application of  Scondoo using RxSwift, Coreadata, and no StoryBoards.
-* A node.js, MongoDB Web app to manage google calendar events as a todo list. [Task Fighter](/task-fighter/)
-* A React Native app for tourists visiting Spain by car.[Arr](/arr/)
 
-I am Spanish and lived in Berlin for 5 years. Now I live in Madrid and work remotely from home or a co-working space.
+<p/>&nbsp;
+
+* An iOS application of  Scondoo using RxSwift, Coreadata, and NO StoryBoards. [info](/projects/scondoo-i-os)
+* A node.js, MongoDB Web app to manage google calendar events as a todo list. [Task Fighter](/projects/task-fighter/)
+* A React Native app for tourists visiting Spain by car .[Aandalusien Rund Reise](/projects/arr/)
+
+<p/>&nbsp;
+
+I lived and worked in Berlin for 5 years. Now I live in Madrid and work remotely from home.
+
+<p/>&nbsp;
+
+I train Hapkido every week and when I can, I love to practice board sports like skateboarding, snowboarding, and surfing.
+
+Science Fiction and Thiller are my favorites books and movies genres.
 
 <span  id="formal" > </span>
 
 # Hugo Matilla CV 
 
 # OBJECTIVE
-My objective as an Android Developer is to contribute with my experience in application development, my passion for releasing quality software and my enthusiasm for learning every day. I feel extremely motivated to connect with teams that follow flexibility, quality and cooperation principles. 
+My objective as an Android Developer is to contribute with my experience in application development, my passion for releasing quality software, and my enthusiasm for learning every day. I feel extremely motivated to connect with teams that follow flexibility, quality, and cooperation principles. 
 
 # EXPERIENCE
 ## eDreams ODIGEO
@@ -47,7 +65,7 @@ I joined a team of 20 Android developers, where I carried out development tasks,
 ### Android Developer 
 ##### _Berlin/Remote. August. 2013 - January 2020_
    
- At scondoo I overtook with agility and speed the code developed by 2 different agencies. This code was in several cases unstructured. Thanks to my experience I improved it with ease, not only in performance but also in design.
+ At scondoo, I overtook with agility and speed the code developed by 2 different agencies. This code was in several cases unstructured. Thanks to my experience I improved it with ease, not only in performance but also in design.
 
 <br/>
 
