@@ -1,6 +1,6 @@
 ---
 title:  Andalusien Rund Reise
-subtitle: Andalusia Multiplatform travel App, developed in React Native
+subtitle: Multiplatform travel App developed in React Native
 image: ../imgs/ArrApp.png
 categories: [projects]
 linkPost: "projects/Andalusien-Rund-Reise"

@@ -5,6 +5,6 @@
 </template>
 <style scoped>
 .hero {
-  padding-top: 3em;
+  padding-top: 3rem;
 }
 </style>

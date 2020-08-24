@@ -19,4 +19,12 @@ After a couple of years, and some reading I decided that the application needed 
 
 After some ups and downs refactoring, that I explain in this talk, I was able to increase the quality of the app and decrease the complexity of the code.
 
-<iframe width="1020" height="1000" src="https://www.youtube.com/embed/4m774bHxRJE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe style="width:1020 !important; height:1000 !important;"  src="https://www.youtube.com/embed/4m774bHxRJE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+The biggest improvements I made to the Scondoo app were:
+* Refactor the whole architecture to a "Clean" model.
+* Refactor to use Kotlin in all code.
+* Add missing tests to the critical parts.
+* Migrate the Database from GreenDao to  ROOM (14 tables, 100+ columns).
+* Refactor MVP model to LiveData, and ViewModels observing ROOM Queries.
+

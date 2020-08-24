@@ -47,7 +47,7 @@ $primary: #4a148c;
   background:$card-bg;
 }
 .badges{
-  margin-top: -0.8em;
+  margin-top: -0.8rem;
   position: relative;
   justify-content: flex-end;
 }

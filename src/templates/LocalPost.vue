@@ -95,7 +95,8 @@ border-style: solid;
 border-color: #fdd835;
 border-radius: 2px;
 font-style: italic;
-margin-bottom: 8px;
+margin-bottom: 1rem;
+margin-top: 1rem;
 }
 blockquote > ul {
     list-style: none;
@@ -111,12 +112,16 @@ p, li{
 }
 code{
   font-family: SourceCode !important;
-  background-color:#ffffff0c;
-  border-radius: 2px; 
-  color:#f92672;
+  background-color:#ffffff18;
+  border-radius: 4px; 
+  color:white;
 }
 </style>
 <style>
+iframe {
+  height: 225px;
+  width: 400px;
+}
 .tag:not(body){
   background-color: transparent;
 }
@@ -130,15 +135,19 @@ pre {
     color: wheat;
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 1.6em;
+    margin-bottom: 1.6rem;
     max-width: 100%;
     overflow: auto;
-    padding: 1em 1.5em;
+    padding: 1rem 1.5rem;
     display: block;
     word-wrap: break-word;
 }
 pre code{
   font-family: SourceCode !important;
+}
+iframe {
+  height: 225px;
+  width: 400px;
 }
 </style>
 <page-query>
