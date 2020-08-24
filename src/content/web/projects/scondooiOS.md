@@ -10,8 +10,12 @@ categories: [projects]
 ---
 ![scondoo iOS](../imgs/scondooiOS.gif)
 
--This was a prove of concept of writting the scondoo iOS app from scratch. I used RXSwift, CoreData and MaterialDesign, following the same architecture I used in the Android version. Reactive Database as Single Source of truth.
+This was a proof of concept. Writting a new scondoo iOS app from scratch. I used RXSwift, CoreData, MVVM and MaterialDesign, following the same architecture I used in the Android version. MVVM which uses cases where observing Database queries.
 
--The main scondoo features where done. List, detail, login, and redeem a voucher.
+<p>&nbsp;</p>
 
--Unfortunately it was not released.
+The main scondoo features where done. List, detail, login, and redeem a voucher.
+
+<p>&nbsp;</p>
+
+Unfortunately, it was never released.

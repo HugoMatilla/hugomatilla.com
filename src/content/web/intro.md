@@ -1,13 +1,16 @@
 ---
-title: Welcome
+title: Hello and Welcome
 categories: ["intro"]
 image: ./imgs/mebg.jpg
 ---
+<p/>
+&nbsp;
 
--I am a software developer that mainly do **Android** in **Kotlin**.
+-I am a software developer that mainly does **Android** in **Kotlin**.
 
--Sometimes I write [articles](/blog/) or practice different technologies.
+-Besides Android development, I write [articles](/blog/) and practice with other technologies.
 
--Like the [website](/projects/hugomatilla-com) you are looking at now, made with **Gridsome** and **Vue**.
+-An example of my side projects is the website you are looking at now. More info [here](/projects/hugomatilla-com).
 
--Scrolling down you can see the applications I have worked on as my open source projects.
+-Scroll down to find the applications I have worked on as my open source projects.
+
