@@ -3,7 +3,7 @@ title: CV
 categories: ["cv"]
 image: ./imgs/me.jpg
 ---
-
+👨‍💻
 Here you can find out who I am and what I like. You can find a formal 
 Android CV in PDF [here](https://drive.google.com/file/d/1FJJqp6LqpbhdOG7F_NiCIWsQvJLp4L5M/view?usp=sharing) or a web version [here](#formal).
 
