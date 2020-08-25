@@ -7,7 +7,7 @@ linkPost: "projects/Andalusien-Rund-Reise"
 link: "projects/Andalusien-Rund-Reise"
 linkProject: https://itunes.apple.com/us/app/andalusien-rundreise/id1346610916?mt=8
 priority: 8
-buttonTitle: VISIT PROJECT
+buttonTitle: INFO
 badges: [react-native, android, ios]
 ---
 ![arr](../imgs/ArrHeader.webp)

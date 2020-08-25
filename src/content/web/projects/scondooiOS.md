@@ -1,9 +1,9 @@
 ---
 title: scondoo iOS
-subtitle: POC scondoo iOS app using Swift, RxSwift, and applying a new design
+subtitle: POC scondoo iOS app using Swift, RxSwift, and Matrial Design
 image: "../imgs/scondooiOS.jpg"
 link: "/projects/scondoo-i-os"
-buttonTitle: WIP
+buttonTitle: INFO
 priority: 9
 badges: [ios]
 categories: [projects]

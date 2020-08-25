@@ -9,7 +9,7 @@
       <b-navbar-item tag="div">
         <div class="buttons">
              <g-link class="nav__link button is-black" to="/blog/">Blog</g-link>
-             <g-link class="nav__link button is-black" to="/projects/cv/">CV</g-link>
+             <!-- <g-link class="nav__link button is-black" to="/projects/cv/">CV</g-link> -->
           <a class="button is-black" target="_blanck" href="https://twitter.com/hugomatgom">
             <b-icon icon="twitter" ></b-icon>
           </a>
