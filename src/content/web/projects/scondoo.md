@@ -9,7 +9,7 @@ priority: 1
 badges: [android, kotlin, jetpack]
 ---
 
-![scondoo](../imgs/scondoo.jpeg)
+![scondoo](../imgs/scondoo.webp)
 
 I joined the <b>[scondoo.de](https://scondoo.de)</b>, team soon after they got some VC funding. They needed an in-house Android Developer to help them increase its usability and features.
 
