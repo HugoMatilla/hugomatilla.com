@@ -1,7 +1,7 @@
 ---
 title: scondoo iOS
 subtitle: POC scondoo iOS app using Swift, RxSwift, and applying a new design
-image: "../imgs/scondooiOS.gif"
+image: "../imgs/scondooiOS.jpg"
 link: "/projects/scondoo-i-os"
 buttonTitle: WIP
 priority: 9
@@ -10,7 +10,7 @@ categories: [projects]
 ---
 ![scondoo iOS](../imgs/scondooiOS.gif)
 
-This was a proof of concept. Writting a new scondoo iOS app from scratch. I used RXSwift, CoreData, MVVM and MaterialDesign, following the same architecture I used in the Android version. MVVM which uses cases where observing Database queries.
+This was a proof of concept. Writing a new scondoo iOS app from scratch. I used RXSwift, CoreData, MVVM and MaterialDesign, following the same architecture I used in the Android version. MVVM which uses cases where observing Database queries.
 
 <p>&nbsp;</p>
 

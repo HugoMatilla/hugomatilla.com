@@ -1,7 +1,7 @@
 ---
 title:  Andalusien Rund Reise
 subtitle: Multiplatform travel App developed in React Native
-image: ../imgs/ArrApp.png
+image: ../imgs/ArrApp.webp
 categories: [projects]
 linkPost: "projects/Andalusien-Rund-Reise"
 link: "projects/Andalusien-Rund-Reise"
@@ -10,7 +10,7 @@ priority: 8
 buttonTitle: VISIT PROJECT
 badges: [react-native, android, ios]
 ---
-![arr](../imgs/ArrHeader.png)
+![arr](../imgs/ArrHeader.webp)
 
 The [Andalusien Rundreise](http://www.andalusienrund-reise.de/) project started as an offer of a friend of mine that needed someone who made an app for a client of his. He needed both, an [Android](https://play.google.com/store/apps/details?id=com.arr) and an [iOS](https://itunes.apple.com/us/app/andalusien-rundreise/id1346610916?platform=iphone&preserveScrollPosition=true#platform/iphone) app and I was eager to make a project in React Native, I had played with it but never build a "real" app. So it was easy for me to accept the project.
 

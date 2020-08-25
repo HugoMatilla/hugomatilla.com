@@ -1,7 +1,7 @@
 ---
 title: Hello and Welcome
 categories: ["intro"]
-image: ./imgs/mebg.jpg
+image: ./imgs/me.jpg
 ---
 <p/>
 &nbsp;

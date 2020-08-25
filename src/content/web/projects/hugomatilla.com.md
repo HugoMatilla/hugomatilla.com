@@ -1,7 +1,7 @@
 ---
 title: "hugomatilla.com"
 subtitle: Motivation and how I make this site.
-image: "../imgs/hugomatilla.png"
+image: "../imgs/hugomatilla.webp"
 link: https://github.com/HugoMatilla/hugomatilla.com
 buttonTitle: MORE INFO
 priority: 1
@@ -58,7 +58,7 @@ In my previous Gatsby version, the home content was built directly in the `index
 ## STYLE
 About the style I was very hyped with the **Cyberpunk 2077** game, I have always been a fan of science fiction, futurism, and cyberpunk aesthetics. I loved the [cyberpunk web site](cyberpunk.net) so I get inspiration from it.
 
-![cyberpunk](../imgs/cyberpunk2.png)
+![cyberpunk](../imgs/cyberpunk.webp)
 
 I used [Bulma](https://bulma.io/) and [Buefy](https://buefy.org/) as my base CSS library, I find it beautifully made and easy to use. 
 

@@ -1,7 +1,7 @@
 ---
 title: "MoviesFlow[WIP]"
 subtitle: "App using Kotlin <b>Flow</b> observing Room queries in a Clean Architecture"
-image: "../imgs/MoviesFlow.gif"
+image: "../imgs/MoviesFlow.webp"
 link: https://github.com/HugoMatilla/MoviesFlow
 buttonTitle: VISIT PROJECT
 priority: 12
