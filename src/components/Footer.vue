@@ -2,7 +2,7 @@
   <footer class="footer is-dark">
     <div class="content has-text-centered is-dark">
       <p>
-        <strong>Hugo Matilla</strong> 👨‍💻 2020
+        <strong>Hugo Matilla </strong> 👨‍💻 2020
       </p>
       <div class="small">
         <p>
@@ -10,7 +10,7 @@
           <a target="_blank" href="https://gridsome.org/">Gridsome</a>,
           <a target="_blank" href="https://bulma.io/">Bulma</a>,
           <a target="_blank" href="https://buefy.org/">Buefy</a> &
-          <a target="_blank" href="https://vuejs.org//">Vue</a>
+          <a target="_blank" href="https://vuejs.org/">Vue</a>
         </p>
         <p>
           Backgrounds from:
@@ -31,6 +31,8 @@
           <b-icon icon="linkedin"></b-icon>
         </a>
       </div>
+      <br/>
+      <small><i>3.0.0</i></small>
     </div>
   </footer>
 </template>

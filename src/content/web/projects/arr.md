@@ -16,6 +16,4 @@ The [Andalusien Rundreise](http://www.andalusienrund-reise.de/) project started 
 
 It was difficult in some parts but most of the job was easy to achieve. Also, I was able to learn deeply the Unidirectional Architecture, something that I found pretty elegant, simple and powerful. I am looking forward to applying it to an Android project.
 
-I have to say that I love React Native I find it easy for a basic app and not that complicated for a medium one. I don't know if I would recommend it for a big application but for most of the business applications I think is the way to go.
-
-
+I have to say that working with React Native I find it easy for a basic app and not that complicated for a medium one. I don't know if I would recommend it for a big application.
