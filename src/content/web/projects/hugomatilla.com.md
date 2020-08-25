@@ -40,7 +40,7 @@ Since I didn't want to fix a 3 years old site I decide to build a new one from s
 
 <p/> &nbsp;
 
-I googled `Gatsby for Vue` and I found [Gridsome]().
+I googled `Gatsby for Vue` and I found [Gridsome](https://gridsome.org/).
 
 <p/> &nbsp;
 
