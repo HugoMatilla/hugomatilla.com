@@ -31,7 +31,7 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.meta.push({
     name: 'twitter:image',
-    content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaTwitter.png'
+    content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaSSNN.png'
   })
   head.meta.push({
     name: 'twitter:url',
@@ -39,7 +39,7 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.meta.push({
     name: 'og:image',
-    content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaTwitter.png'
+    content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaSSNN.png'
   })
   head.meta.push({
     name: 'og:description',
