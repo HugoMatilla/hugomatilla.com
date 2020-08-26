@@ -37,6 +37,14 @@ export default function (Vue, { router, head, isClient }) {
     name: 'twitter:url',
     content: 'https://www.hugomatilla.com'
   })
+  head.meta.push({
+    name: 'og:image',
+    content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaTwitter.png'
+  })
+  head.meta.push({
+    name: 'og:description',
+    content: 'Hugo Matilla: Software Developer'
+  })
   Vue.use(Buefy)
   Vue.prototype.$AOS = AOS
 }
