@@ -15,6 +15,12 @@ badges: [android, kotlin, jetpack]
 
 Currently, I am a Senior Android Developer at eDreams ODIGEO where I joined a team of 20 Android Developers building the multibrand android app at one of the biggest Online Tourist Agencies in the world.
 
+ 
+<p/>
+&nbsp;
+
+I carried out development tasks, mentoring, and improvement proposals. I also had the opportunity to learn about different technologies and ways of working.
+
 <p/>
 &nbsp;
 
@@ -23,7 +29,12 @@ The Native team consists of more than 50 people from Developers to PO, Leads, an
 <p/>
 &nbsp;
 
-I carried out development tasks, mentoring, and improvement proposals. I also had the opportunity to learn about different technologies and ways of working.
+
+I am grateful to be part of a team which such talented people where I learn new things every day.
+
+<p/>
+&nbsp;
+
 
 <!-- 
 <p/>
