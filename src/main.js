@@ -31,7 +31,7 @@ export default function (Vue, { router, head, isClient }) {
   })
   head.meta.push({
     name: 'twitter:image',
-    content: '/assets/static/hugomatillaTwitter.png'
+    content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaTwitter.png'
   })
   head.meta.push({
     name: 'twitter:url',
