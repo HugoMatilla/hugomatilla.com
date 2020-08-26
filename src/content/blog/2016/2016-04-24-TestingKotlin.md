@@ -11,9 +11,6 @@ summary: Some simple snippets to do logic testing in kotlin.
 
 ## _Some simple snippets to do logic testing in kotlin_
 
-<!-- ![Alternative text](../favicon.png) -->
-
-
 # JUnit Test
 
 When doing Unit testing we don't depend on Android so here is the sample of a basic rest service test.

@@ -12,19 +12,31 @@ import 'prismjs/themes/prism-okaidia.css'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  
   head.link.push({
     rel: 'stylesheet',
     href: 'https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css'
   })
-  // head.link.push({
-    // rel: 'stylesheet',
-    // href: 'styles.scss'
-    // href: 'https://unpkg.com/bulmaswatch/cyborg/bulmaswatch.min.css'
-    // href: 'https://unpkg.com/bulmaswatch/darkly/bulmaswatch.min.css'
-    // href: 'https://unpkg.com/bulmaswatch/solar/bulmaswatch.min.css'
-  // })
+  head.meta.push({
+    name: 'twitter:card',
+    content: 'summary'
+  })
+  head.meta.push({
+    name: 'twitter:site',
+    content: '@hugomatgom'
+  })
+  head.meta.push({
+    name: 'twitter:title',
+    content: 'Hugo Matilla'
+  })
+  head.meta.push({
+    name: 'twitter:image',
+    content: '/assets/static/hugomatillaTwitter.png'
+  })
+  head.meta.push({
+    name: 'twitter:url',
+    content: 'https://www.hugomatilla.com'
+  })
   Vue.use(Buefy)
   Vue.prototype.$AOS = AOS
 }
-
-
