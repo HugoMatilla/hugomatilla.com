@@ -150,11 +150,29 @@ iframe {
   width: 400px;
 }
 </style>
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.localPost.title,
+      meta: [
+        { key: "twitter:title", name: "twitter:title", content: this.$page.localPost.title},
+        { key: "twitter:image", name: "twitter:image", content: this.$page.localPost.image.src },
+        { key: "og:description", name: "og:description", content: this.$page.localPost.title},
+        { key: "og:image", name: "og:image", content: this.$page.localPost.image.src }
+      ],
+      // etc...
+    }
+  }
+}
+</script>
+
 <page-query>
 query ($id: ID!) {
   localPost(id: $id) {
     title
     content
+    image
   }
 }
 </page-query>

@@ -26,10 +26,12 @@ export default function (Vue, { router, head, isClient }) {
     content: '@hugomatgom'
   })
   head.meta.push({
+    key: 'twitter:title',
     name: 'twitter:title',
     content: 'Hugo Matilla'
   })
   head.meta.push({
+    key: 'twitter:image',
     name: 'twitter:image',
     content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaSSNN.png'
   })
@@ -38,10 +40,12 @@ export default function (Vue, { router, head, isClient }) {
     content: 'https://www.hugomatilla.com'
   })
   head.meta.push({
+    key: 'og:image',
     name: 'og:image',
     content: 'https://raw.githubusercontent.com/HugoMatilla/hugomatilla.com/master/src/assets/hugomatillaSSNN.png'
   })
   head.meta.push({
+    key: 'og:description',
     name: 'og:description',
     content: 'Hugo Matilla: Software Developer'
   })
