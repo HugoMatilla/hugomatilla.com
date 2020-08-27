@@ -125,6 +125,9 @@ iframe {
 .tag:not(body){
   background-color: transparent;
 }
+code[class*="language-"], pre[class*="language-"]{
+  line-height: 0rem;
+}
 .token.tag{
   font-size: 1em;
 }
@@ -134,7 +137,7 @@ pre {
     border-radius: 12px;
     color: wheat;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.6rem;
     margin-bottom: 1.6rem;
     max-width: 100%;
     overflow: auto;
