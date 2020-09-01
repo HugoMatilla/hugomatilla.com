@@ -158,6 +158,7 @@ In the next image, you can see some `TextAppearance` styles from the AppCompat L
 <!-- <img src="../img/posts/post-typography/appcompat-styles.png" alt="font-folder" width="800"/> -->
 ![appcompat-styles](./imgs/appcompat-styles.png)
 <p></p>
+
 These look big and overwhelming but don't worry we are going to simplify all of it.
 
 # 4. The Material Design Type System

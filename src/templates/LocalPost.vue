@@ -28,15 +28,24 @@ h4 {
   margin-top: 24px;
 }
 p {
-  font-size: 1.25em;
+  font-size: 1.4em;
   line-height: 1.25em;
 }
 .post-container {
   font-family: Bitter !important;
+  color:#cfcfcf;
+  line-height: 2em;
+
 }
 .post-container p {
   font-family: Bitter !important;
   line-height: 1.6em;
+}
+.post-container h1{
+  margin-bottom: 24px;
+}
+.post-container h2{
+  margin-bottom: 24px;
 }
 .number {
     -webkit-box-align: center;
@@ -61,9 +70,8 @@ p {
 
 </style>
 <style scoped>
-
 .title{
-  color:white;
+  color:#cfcfcf;
 }
 .bg{
 background-color: #1a1d1e;
@@ -73,7 +81,7 @@ background-color: #1a1d1e;
 <style>
 .post-container{
   padding-top: 24px ;
-  max-width: 840px; 
+  max-width: 940px; 
   padding: 12px;
 }
 .g-image{
@@ -126,7 +134,7 @@ iframe {
   background-color: transparent;
 }
 code[class*="language-"], pre[class*="language-"]{
-  line-height: 0rem;
+  line-height: 1rem;
 }
 .token.tag{
   font-size: 1em;

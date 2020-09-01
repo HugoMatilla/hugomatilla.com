@@ -2,7 +2,7 @@
 title: "hugomatilla.com"
 subtitle: Motivation and how I make this site.
 image: "../imgs/hugomatilla.webp"
-link: https://github.com/HugoMatilla/hugomatilla.com
+link: /projects/hugomatilla-com
 buttonTitle: MORE INFO
 priority: 1
 badges: [web]
@@ -29,7 +29,7 @@ For the style, I added Material Design using the [Material Design Lite](https://
 <p/> &nbsp;
 
 Everything was smooth but I had some problems deploying it to Netlifly via git pushes, so for every update, on the site, I had to build the site locally and drag and drop the public folder to my Netlify project.
-That was not ideal but since I was not making updates very often, it was good enough.
+That was not ideal but since I was not making updates very often, it was good enough. You can find it [here](https://hugomatilla2.netlify.app/)
 
 # LATEST VERSION: 3.0 Gridsome
 Years passed and I decided that I wanted to write Android Articles again. When I wanted to publish my first new article on my Gatsby Site the deploy problem was still there and all my Gatsby dependencies were obsolete. 
@@ -64,6 +64,10 @@ I used [Bulma](https://bulma.io/) and [Buefy](https://buefy.org/) as my base CSS
 
 In the end, I am very happy with the final result, and even if it took me some time, it was not more than a couple of weeks in the afternoons. 
 
+You can finde the code [here](https://github.com/HugoMatilla/hugomatilla.com)
+
  > My goals to start a new project are always to enjoy doing it and to learn something. I was able to accomplish both in this one.
+
+ 
 
 

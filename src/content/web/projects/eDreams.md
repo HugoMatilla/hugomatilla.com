@@ -6,7 +6,7 @@ categories: ["featured"]
 linkPost: "projects/e-Dreams"
 linkProject: https://play.google.com/store/apps/details?id=com.edreams.travel&hl=en_us
 priority: 10
-badges: [android, kotlin, jetpack]
+badges: [android, kotlin, coroutines]
 ---
 ![eDreams](../imgs/eDreamsHeader.jpg)
 
