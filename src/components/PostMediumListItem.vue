@@ -31,7 +31,7 @@ export default {
       else if (this.edge.node.link.includes("itnext"))
       return "https://cdn-images-1.medium.com/max/1200/1*KCpf5X5s7-hXAU_geaugDA.png"
       else
-      return "https://www.underconsideration.com/brandnew/archives/medium_2017_monogram.png"
+      return "https://www.pngkey.com/png/full/48-483814_medium-logo-juan-garzn.png"
     },
     publisher: function (){
       if (this.edge.node.link.includes("proandroiddev"))
