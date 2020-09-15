@@ -56,7 +56,7 @@ In my previous Gatsby version, the home content was built directly in the `index
 
 
 ## STYLE
-About the style I was very hyped with the **Cyberpunk 2077** game, I have always been a fan of science fiction, futurism, and cyberpunk aesthetics. I loved the [cyberpunk web site](cyberpunk.net) so I get inspiration from it.
+I was very hyped with the **Cyberpunk 2077** game, I have always been a fan of science fiction, futurism, and cyberpunk aesthetics. I love the [cyberpunk web site](cyberpunk.net) so I get inspiration from it.
 
 ![cyberpunk](../imgs/cyberpunk.webp)
 
