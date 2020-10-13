@@ -27,11 +27,11 @@ Learning new technology is one of my hobbies. My last, not Android related proje
 
 * An iOS application of  Scondoo using RxSwift, Coreadata, and NO StoryBoards. [info](/projects/scondoo-i-os)
 * A node.js, MongoDB Web app to manage google calendar events as a todo list. [Task Fighter](/projects/task-fighter/)
-* A React Native app for tourists visiting Spain by car .[Aandalusien Rund Reise](/projects/arr/)
+* A React Native app for tourists visiting Spain by car. [Andalusien Rund Reise](/projects/arr/)
 
 <p/>&nbsp;
 
-I lived and worked in Berlin for 5 years. Now I live in Madrid and work remotely from home.
+I lived and worked in Berlin for 5 years, before coming back to Madrid where I currently live.
 
 <p/>&nbsp;
 
