@@ -13,7 +13,7 @@ I am a Software Engineer MSc. with more than 8 years of experience as an Android
 
 <p/>&nbsp;
 
-Later on, I worked in a startup `Scondoo`) where I was the only Android Developer. I added new features, fixed bugs, and refactored every time I find it was necessary.
+Later on, I worked in a startup (*Scondoo*) where I was the only Android Developer. I added new features, fixed bugs, and refactored every time I find it was necessary.
 
 <p/>&nbsp;
 
