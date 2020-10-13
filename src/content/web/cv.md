@@ -53,7 +53,7 @@ My objective as an Android Developer is to contribute with my experience in appl
 
 <br/>
 
-I joined a team of 20 Android developers, where I carried out development tasks, mentoring, and improvement proposals. I also had the opportunity to learn about different technologies and ways of working.
+I joined a team of 20 Android developers, where I carried out development tasks, mentoring, and improvement proposals. Be part of such a big Android team allows me to improve my communication, influence and administrator skills.
 
 <br/>
 
