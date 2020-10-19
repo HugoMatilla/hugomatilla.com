@@ -97,7 +97,7 @@ query {
       }
     }
   },
-   localPosts: allLocalPost {
+   localPosts: allLocalPost(filter: { categories: { ne: "wip" }}){
     edges {
       node {
         id
