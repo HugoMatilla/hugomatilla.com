@@ -8,7 +8,7 @@ priority: 1
 badges: [web]
 categories: [open]
 --- 
-### Motivation and how I make this site.
+### Motivation and how I made this site.
 
 <p/> &nbsp;
 

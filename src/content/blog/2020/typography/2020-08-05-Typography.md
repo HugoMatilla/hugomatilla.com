@@ -111,7 +111,7 @@ There are 3 ways to do that.
     <item name="fontFamily">@font/comic_neue_bold</item>
   </style>
 ```
-```xml
+```kt
   <TextView
     ...
     style="@style/MyFontStyle"/>
@@ -126,7 +126,7 @@ Android **AppCompat** library and the **Material Design** library offer us a set
 Like for example the `TextAppearance.AppCompat.Display1`
 
 We can use it like any other `style`
-```xml
+```kt
 <TextView
     style="@style/TextAppearance.AppCompat.Display1"
     .../>
@@ -196,7 +196,7 @@ The Android system defines **Theme Attributes**. Let's see how they differ from 
   * Applied to a single **View**.
   * `android:textColor=red`, `android:fontFamily="@font/comic_neue"`. 
 
-```xml
+```kt
 <TextView
     ... 
     android:fontFamily="@font/comic_neue"/>
@@ -216,7 +216,7 @@ The Android system defines **Theme Attributes**. Let's see how they differ from 
 ```
 To use them just set them with the `?attr` keyword first.
 
-```xml
+```kt
   <TextView
   ...
   android:textAppearance="?attr/textAppearanceBody1" />
@@ -244,7 +244,7 @@ If you remember, the Material Design Docs said: "*13 type styles would be enough
 
 All these **Theme Attributes** are set to a specific premade style, and as we did before with the premade styles, we can do it with the **theme attributes**.
 
-```xml
+```kt
   <TextView
   ...
   android:textAppearance="?attr/textAppearanceHeadline5" />
@@ -323,17 +323,18 @@ In your `themes.xml` add the definition.
 ```
 
 Don't forget to add your theme in the manifest.
-```xml
+```kt
 <application
-...
-android:theme="@style/Base.Theme.MyApp">
+  ...
+  android:theme="@style/Base.Theme.MyApp"/>
+
 ```
 
 And that's it.
 
 In all the `TextViews` whose `textAppearance` is set to  `textAppearanceHeadline5`, your custom style will be set. 
 
-```xml
+```kt
   <TextView
   ...
   android:textAppearance="?attr/textAppearanceHeadline5" />
@@ -360,16 +361,16 @@ In any of your views, you can add the `android:theme` attribute and set it to a 
 ```xml
 <style name="ThemeOverlay.MyApp.TypeScale.Alternative" parent="">
     <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1.MyApp.Alternative</item>
-  </style>
+</style>
 ```
 `fragment_custom.xml`
-```xml
+```kt
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_margin="16dp"
       android:text="textAppearanceBody1 of Main Theme"
-      android:textAppearance="?attr/textAppearanceBody1" /> <!-- Uses the app themes textAppearanceBody1-->
+      android:textAppearance="?attr/textAppearanceBody1" /> // Uses the app themes textAppearanceBody1
 
     <LinearLayout
       android:layout_width="match_parent"
@@ -381,7 +382,7 @@ In any of your views, you can add the `android:theme` attribute and set it to a 
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="textAppearanceBody1 of Theme Alternative1"
-        android:textAppearance="?attr/textAppearanceBody1" /> <!-- Uses the alternative themes textAppearanceBody1-->
+        android:textAppearance="?attr/textAppearanceBody1" /> // Uses the alternative themes textAppearanceBody1
 
     </LinearLayout>
 
