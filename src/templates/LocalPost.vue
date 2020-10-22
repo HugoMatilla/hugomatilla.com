@@ -6,6 +6,7 @@
   </div>
   </Layout>
 </template>
+<!-- -->
 <style>
 .icon {
   width: 0;
@@ -136,6 +137,10 @@ iframe {
 code[class*="language-"], pre[class*="language-"]{
   line-height: 1rem;
 }
+/* code[class*="language-xml"], pre[class*="language-xml"]{
+  white-space:pre-line;
+  line-height: 1rem;
+} */
 .token.tag{
   font-size: 1em;
 }
@@ -161,6 +166,7 @@ iframe {
   width: 400px;
 }
 </style>
+<!---->
 <script>
 export default {
   metaInfo() {
