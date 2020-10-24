@@ -3,8 +3,8 @@
     <div v-for="edge in $static.data.edges" :key="edge.node.id">
       <div class="columns">
         <div class="card-avatar column is-one-quarter">
-          <!-- <img class="image-filter" :src="edge.node.image.src" /> -->
-          <MyImage class ="image-filter" :imageUrl="edge.node.image.src"/>
+          <MyImageSafari v-if="isSafari" class ="image-filter" :imageUrl="edge.node.image.src"/>
+          <MyImage v-else class ="image-filter" :imageUrl="edge.node.image.src"/>
         </div>
         <div class="column is-three-quarters">
           <p class="title" v-html="edge.node.title" />
@@ -46,10 +46,19 @@ ul {
 
 <script>
 import MyImage from "./MyImage.vue";
+import MyImageSafari from "./MyImageSafari.vue";
 export default {
   components: {
     MyImage,
+    MyImageSafari
   },
+  computed: {
+    isSafari: function(){ 
+      var isSafari = navigator.vendor.toLowerCase().indexOf('apple') > -1
+      console.log("isSafari: " + isSafari)
+      return isSafari
+      }
+  }
 };
 </script>
 <static-query>
