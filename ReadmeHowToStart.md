@@ -1,5 +1,11 @@
 `gridsome develop` to start a local dev server at `http://localhost:8080`
 
+# Update libraries
+> yarn upgrade
+> yarn -global upgrade
+> Delete node folder and .lock files
+> npm install
+
 # 1 Add Medium Posts
 #### 1 Execute
 > yarn add gridsome-source-rss
