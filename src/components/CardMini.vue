@@ -11,7 +11,13 @@
     </div>
     <figure class="item item-center is-3by4">
       <p class="image">     
-        <img :src="node.image.src" alt="Placeholder image" />
+        <!-- <img :src="node.image.src" alt="Placeholder image" /> -->
+                  <b-image
+              class="image img is-3by4"
+              :src="node.image.src"
+              webp-fallback=".png"
+              ratio="3by1"
+          ></b-image>
       </p>
     <b-tag class="badge">{{node.badges[0]}}</b-tag>
     </figure>
@@ -94,7 +100,7 @@ $card-bg: #fdd835;
   width: 96px;
 }
 
-img{
+.img{
   max-width: 96px;
   min-height: 165px;
   object-fit: cover;

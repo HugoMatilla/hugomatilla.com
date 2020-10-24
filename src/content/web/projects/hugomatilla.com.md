@@ -58,13 +58,13 @@ In my previous Gatsby version, the home content was built directly in the `index
 ## STYLE
 I was very hyped with the **Cyberpunk 2077** game, I have always been a fan of science fiction, futurism, and cyberpunk aesthetics. The [cyberpunk web site](cyberpunk.net)  was the inspiration for this styling this project.
 
-![cyberpunk](../imgs/cyberpunk.webp)
+![cyberpunk](../imgs/cyberpunk.png)
 
 I used [Bulma](https://bulma.io/) and [Buefy](https://buefy.org/) as my base CSS library, I find it beautifully made and easy to use. 
 
 In the end, I am very happy with the final result, and even if it took me some time, it was not more than a couple of weeks in the afternoons. 
 
-You can finde the code [here](https://github.com/HugoMatilla/hugomatilla.com)
+You can find the code [here](https://github.com/HugoMatilla/hugomatilla.com)
 
  > My goals to start a new project are always to enjoy doing it and to learn something. I was able to accomplish both in this one.
 

@@ -1,9 +1,12 @@
 <template>
   <div id='project-card' class="card clip">
         <div class="card-image">
-          <figure class="image is-3by1">
-            <img :src="node.image.src" alt="Placeholder image" />
-          </figure>
+          <b-image
+              class="image img is-3by1"
+              :src="node.image.src"
+              webp-fallback=".png"
+              ratio="3by1"
+          ></b-image>
           <b-taglist class="badges is-left">
               <section v-for="badge in node.badges">
                 <b-tag class="badge">{{badge}}</b-tag>
@@ -67,7 +70,7 @@ $primary: #4a148c;
   border-style: solid;
   border-color:#fdd835;
 }
-img{
+.img{
    object-fit: cover;
 }
 a{
