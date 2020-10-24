@@ -45,16 +45,16 @@ export default {
   },
   methods: {
       showSafariPopUp: function () {
-        var isSafari = navigator.vendor.toLowerCase().indexOf('apple') > -1
-        if(isSafari && localStorage.getItem("dismissSafariToast")==null){ 
-        this.$buefy.snackbar.open({
-            message: `This site looks better in Chrome or FireFox `,
-            type: 'is-warning',
-            position: 'is-top',
-            duration: 5000,
-            actionText: "Dismiss",
-            onAction: () => { localStorage.setItem("dismissSafariToast", true); }})
-        }
+        // var isSafari = navigator.vendor.toLowerCase().indexOf('apple') > -1
+        // if(isSafari && localStorage.getItem("dismissSafariToast")==null){ 
+        // this.$buefy.snackbar.open({
+        //     message: `This site looks better in Chrome or FireFox `,
+        //     type: 'is-warning',
+        //     position: 'is-top',
+        //     duration: 5000,
+        //     actionText: "Dismiss",
+        //     onAction: () => { localStorage.setItem("dismissSafariToast", true); }})
+        // }
       }
   },
   mounted() {
