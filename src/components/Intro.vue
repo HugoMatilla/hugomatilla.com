@@ -54,11 +54,12 @@ export default {
   },
   computed: {
     isSafari: function(){ 
-      if (process.isClient()){
-        var isSafari = navigator.vendor.toLowerCase().indexOf('apple') > -1
-        console.log("isSafari: " + isSafari)
-        return isSafari
-        }
+      // if (process.isClient()){
+        // var isSafari = navigator.vendor.toLowerCase().indexOf('apple') > -1
+        // console.log("isSafari: " + isSafari)
+        // return isSafari
+        // }
+        return false
       }
   }
 };
