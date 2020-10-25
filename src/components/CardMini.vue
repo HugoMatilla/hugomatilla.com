@@ -12,12 +12,14 @@
     <figure class="item item-center is-3by4">
       <p class="image">     
         <!-- <img :src="node.image.src" alt="Placeholder image" /> -->
-                  <b-image
-              class="image img is-3by4"
-              :src="node.image.src"
-              webp-fallback=".png"
-              ratio="3by1"
+        <ClientOnly>
+          <b-image
+            class="image img is-3by4"
+            :src="node.image.src"
+            webp-fallback=".png"
+            ratio="3by1"
           ></b-image>
+          </ClientOnly>
       </p>
     <b-tag class="badge">{{node.badges[0]}}</b-tag>
     </figure>

@@ -1,10 +1,17 @@
 `gridsome develop` to start a local dev server at `http://localhost:8080`
-
-# Update libraries
+# FAQ
+## Update libraries
 > yarn upgrade
 > yarn -global upgrade
 > Delete node folder and .lock files
 > npm install
+## Error: Could not generate HTML for "/":
+> Could not generate HTML for "/":
+> ReferenceError: HTMLImageElement is not defined
+Wrap client componentes in <ClientOnly></ClientOnly>
+Wrap client Functions in: https://gridsome.org/docs/client-api/#process-injections
+
+https://github.com/gridsome/gridsome/issues/408
 
 # 1 Add Medium Posts
 #### 1 Execute

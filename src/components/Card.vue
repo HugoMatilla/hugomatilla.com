@@ -1,12 +1,14 @@
 <template>
   <div id='project-card' class="card clip">
         <div class="card-image">
+          <ClientOnly>
           <b-image
               class="image img is-3by1"
               :src="node.image.src"
               webp-fallback=".png"
               ratio="3by1"
           ></b-image>
+          </ClientOnly>
           <b-taglist class="badges is-left">
               <section v-for="badge in node.badges">
                 <b-tag class="badge">{{badge}}</b-tag>
