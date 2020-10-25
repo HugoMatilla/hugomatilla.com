@@ -108,6 +108,7 @@ query {
        title
        subtitle
        image
+       fallbackImage
        badges
        link
        buttonTitle	
@@ -125,6 +126,7 @@ query {
        title
        subtitle
        image
+       fallbackImage
        badges
        link
        buttonTitle	

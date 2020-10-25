@@ -2,6 +2,7 @@
 title: moowonsool
 subtitle: Web App with search and flash cards in just 350 <i>javascript</i> lines
 image: "../imgs/MooWonSool.webp"
+fallbackImage: "../imgs/MooWonSool.png"
 link: http://moowonsool.netlify.app
 buttonTitle: VISIT WEB
 priority: 0

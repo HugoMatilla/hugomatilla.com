@@ -2,6 +2,7 @@
 title: "hugomatilla.com"
 subtitle: Motivation and how I make this site.
 image: "../imgs/hugomatilla.webp"
+fallbackImage: "../imgs/hugomatilla.png"
 link: /projects/hugomatilla-com
 buttonTitle: MORE INFO
 priority: 1

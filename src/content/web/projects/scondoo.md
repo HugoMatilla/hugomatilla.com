@@ -2,6 +2,7 @@
 title:  scondoo
 subtitle: Top 1 Germany's Couponing App
 image: "../imgs/scondoo.webp"
+fallbackImage: "../imgs/scondoo.png"
 categories: ["featured"]
 linkPost: "projects/scondoo"
 linkProject: https://play.google.com/store/apps/details?id=de.scondoo.android
@@ -9,7 +10,7 @@ priority: 1
 badges: [android, kotlin, jetpack]
 ---
 
-![scondoo](../imgs/scondoo.webp)
+![scondoo](../imgs/scondoo.png)
 
 I joined the <b>[scondoo.de](https://scondoo.de)</b>, team soon after they got some VC funding. They needed an in-house Android Developer to help them increase its usability and features.
 

@@ -2,6 +2,7 @@
 title: scondoo iOS
 subtitle: POC scondoo iOS app using Swift, RxSwift, and Matrial Design
 image: "../imgs/scondooiOS.jpg"
+fallbackImage: "../imgs/scondooiOS.jpg"
 link: "/projects/scondoo-i-os"
 buttonTitle: INFO
 priority: 9

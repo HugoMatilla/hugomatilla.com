@@ -2,6 +2,7 @@
 title:  Task Fighter
 subtitle: The Beat'em up Calendar-Todo list
 image: "../imgs/TaskFighter.webp"
+fallbackImage: "../imgs/TaskFighter.png"
 categories: ["featured"]
 linkPost: "projects/task-fighter"
 linkProject: http://task-fighter.com/
@@ -9,7 +10,7 @@ priority: 1
 badges: [node, mongoDB, web]
 ---
 
-![Task Fighter](../imgs/TaskFighterHeader.webp)
+![Task Fighter](../imgs/TaskFighterHeader.png)
 
 [Task Fighter](https://task-fighter.com) is a web application I made to practice what I learned in NodeJs, MongoDB, and Javascript. I always wanted to make a whole process from idea to release of a web app that everybody could use. It was featured on [Product Hunt](https://www.producthunt.com/posts/task-fighter), got 185 upvotes and some nice comments.
 

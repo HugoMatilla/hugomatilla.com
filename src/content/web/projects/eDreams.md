@@ -2,6 +2,7 @@
 title: eDreams
 subtitle: Leading online travel agency
 image: "../imgs/eDreams.jpg"
+fallbackImage: "../imgs/eDreams.jpg"
 categories: ["featured"]
 linkPost: "projects/e-Dreams"
 linkProject: https://play.google.com/store/apps/details?id=com.edreams.travel&hl=en_us
