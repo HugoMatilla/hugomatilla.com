@@ -18,6 +18,7 @@ query {
         subtitle
         content
         image
+        fallbackImage
         badges
         linkProject
         linkPost
