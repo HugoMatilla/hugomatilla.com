@@ -5,7 +5,7 @@
           <b-image
               class="image img is-3by1"
               :src="node.image.src"
-              webp-fallback=".png"
+              :webp-fallback="node.fallbackImage.src"
               ratio="3by1"
           ></b-image>
           </ClientOnly>
