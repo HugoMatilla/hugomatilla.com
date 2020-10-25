@@ -8,7 +8,7 @@
         </div>
         <div class="column is-three-quarters">
           <p class="title" v-html="edge.node.title" />
-          <div class="subtitle" v-html="edge.node.content " />
+          <div class="subtitle" v-html="edge.node.content" />
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@
     0 calc(100% - 40px)
   );
   filter: hue-rotate(0deg);
-  filter:grayscale(0%);
+  filter: grayscale(0%);
 }
 .intro {
 }
@@ -39,8 +39,9 @@
 ul {
   list-style: none;
 }
-.title, .subtitle{
-  color:white;
+.title,
+.subtitle {
+  color: white;
 }
 </style>
 
@@ -50,18 +51,18 @@ import MyImageSafari from "./MyImageSafari.vue";
 export default {
   components: {
     MyImage,
-    MyImageSafari
+    MyImageSafari,
   },
   computed: {
-    isSafari: function(){ 
-      // if (process.isClient()){
-        // var isSafari = navigator.vendor.toLowerCase().indexOf('apple') > -1
-        // console.log("isSafari: " + isSafari)
-        // return isSafari
-        // }
-        return false
+    isSafari: function () {
+      if (process.isClient) {
+        var isSafari = navigator.vendor.toLowerCase().indexOf("apple") > -1;
+        return isSafari;
+      } else {
+        return false;
       }
-  }
+    },
+  },
 };
 </script>
 <static-query>

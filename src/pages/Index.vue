@@ -45,7 +45,7 @@ export default {
   },
   methods: {
       showSafariPopUp: function () {
-        if (process.isClient()){
+        if (process.isClient){
           var isSafari = navigator.vendor.toLowerCase().indexOf('apple') > -1
           if(isSafari && localStorage.getItem("dismissSafariToast")==null){ 
           this.$buefy.snackbar.open({
