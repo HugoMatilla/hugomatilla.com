@@ -6,7 +6,7 @@ image: ./imgs/me.jpg
 <p/>
 &nbsp;
 
--I am a software developer that mainly does **Android** in **Kotlin**.
+-I am a software developer. I mainly do **Android** in **Kotlin**.
 
 -Besides Android development, I write [articles](/blog/) and practice with other technologies.
 
