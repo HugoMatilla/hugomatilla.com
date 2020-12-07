@@ -1,6 +1,6 @@
 ---
 title:  Task Fighter
-subtitle: The Beat'em up Calendar-Todo list
+subtitle: The Beat'em up Calendar-Todo list (Deprecated)
 image: "../imgs/TaskFighter.webp"
 fallbackImage: "../imgs/TaskFighter.png"
 categories: ["featured"]
@@ -15,6 +15,8 @@ badges: [node, mongoDB, web]
 [Task Fighter](https://task-fighter.com) is a web application I made to practice what I learned in NodeJs, MongoDB, and Javascript. I always wanted to make a whole process from idea to release of a web app that everybody could use. It was featured on [Product Hunt](https://www.producthunt.com/posts/task-fighter), got 185 upvotes and some nice comments.
 
 >"This is probably the best implementation of a todo list in years. Kudos for approaching the concept from a new direction."
+
+Unfortunately after mLab migrated to Atlas I was not able to make all the adjustments to keep it running with my current free time. Even if it is deprecated now, it is one of the projects that I feel most proud of. 
 
 ### From Task Fighter's About page
 
