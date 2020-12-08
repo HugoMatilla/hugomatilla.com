@@ -1,6 +1,6 @@
 ---
 title:  Task Fighter
-subtitle: The Beat'em up Calendar-Todo list (Deprecated)
+subtitle: The Beat'em up Calendar-Todo list (Discontinued)
 image: "../imgs/TaskFighter.webp"
 fallbackImage: "../imgs/TaskFighter.png"
 categories: ["featured"]
