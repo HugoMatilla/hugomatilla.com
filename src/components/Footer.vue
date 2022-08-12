@@ -2,7 +2,7 @@
   <footer class="footer is-dark">
     <div class="content has-text-centered is-dark">
       <p>
-        <strong>Hugo Matilla </strong> 👨‍💻 2020
+        <strong>Hugo Matilla </strong> 👨‍💻 2021
       </p>
       <div class="small">
         <p>
