@@ -44,3 +44,8 @@ templates: {
 ```    
 #### 4 Create the `Post.vue` in templates folder
 #### 5 Create the `Blog.vue` in pages folder
+
+
+# Errors on M1 and how to fix them
+1. https://github.com/gridsome/gridsome/issues/1596#issuecomment-1007702516
+2. https://stackoverflow.com/questions/72467077/cant-solve-error-node-sass-version-7-0-1-is-incompatible-with-4-0-0
