@@ -6,7 +6,7 @@ fallbackImage: "../imgs/eDreams.jpg"
 categories: ["featured"]
 linkPost: "projects/e-Dreams"
 linkProject: https://play.google.com/store/apps/details?id=com.edreams.travel&hl=en_us
-priority: 10
+priority: 2
 badges: [android, kotlin, coroutines]
 ---
 ![eDreams](../imgs/eDreamsHeader.jpg)
@@ -14,7 +14,7 @@ badges: [android, kotlin, coroutines]
 <p/>
 &nbsp;
 
-Currently, I am a Senior Android Developer at eDreams ODIGEO where I joined a team of 20 Android Developers building the multibrand android app at one of the biggest Online Tourist Agencies in the world.
+I was a Senior Android Developer at eDreams ODIGEO where I joined a team of 20 Android Developers building the multibrand android app at one of the biggest Online Tourist Agencies in the world.
 
  
 <p/>
@@ -31,7 +31,7 @@ The Native team consists of more than 50 people from Developers to PO, Leads, an
 &nbsp;
 
 
-I am grateful to be part of a team which such talented people where I learn new things every day.
+I am grateful for having been part of a team which such talented people where I learned new things every day.
 
 <p/>
 &nbsp;

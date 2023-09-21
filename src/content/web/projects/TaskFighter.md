@@ -3,16 +3,19 @@ title:  Task Fighter
 subtitle: The Beat'em up Calendar-Todo list (Discontinued)
 image: "../imgs/TaskFighter.webp"
 fallbackImage: "../imgs/TaskFighter.png"
-categories: ["featured"]
+categories: ["projects"]
+link: "projects/task-fighter"
 linkPost: "projects/task-fighter"
-linkProject: http://task-fighter.com/
-priority: 1
+# linkProject: http://task-fighter.com/
+linkProject: https://www.youtube.com/watch?v=dz39r_CrmNE&ab_channel=TaskFighter/
+buttonTitle: MORE INFO
+priority: 100
 badges: [node, mongoDB, web]
 ---
 
 ![Task Fighter](../imgs/TaskFighterHeader.png)
 
-[Task Fighter](https://task-fighter.com) is a web application I made to practice what I learned in NodeJs, MongoDB, and Javascript. I always wanted to make a whole process from idea to release of a web app that everybody could use. It was featured on [Product Hunt](https://www.producthunt.com/posts/task-fighter), got 185 upvotes and some nice comments.
+[Task Fighter](https://www.youtube.com/watch?v=dz39r_CrmNE&ab_channel=TaskFighter/) is a web application I made to practice what I learned in NodeJs, MongoDB, and Javascript. I always wanted to make a whole process from idea to release of a web app that everybody could use. It was featured on [Product Hunt](https://www.producthunt.com/posts/task-fighter), got 185 upvotes and some nice comments.
 
 >"This is probably the best implementation of a todo list in years. Kudos for approaching the concept from a new direction."
 
